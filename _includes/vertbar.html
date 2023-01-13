@@ -1,0 +1,6 @@
+<ul class="vertbar">
+    {% for chapter in site.chapters %}
+    {% assign id = # | append: {{chapter.label}} %}
+    <li><a href={{id}}>{{chapter.title}}</a></li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,12 @@
+#Settings
+title: Roleplay Book
+email: contact@benbuckton.com
+description: "Set of open roleplay rules for print and digital viewing"
+url: ""
+markdown: kramdown
+
+partials:
+  - "_includes"
+
+collections:
+  _chapters

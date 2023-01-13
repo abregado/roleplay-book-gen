@@ -1,0 +1,79 @@
+---
+---
+
+/* target all pages */
+@page {
+    margin: 2cm;
+}
+
+/* target left (even-numbered) pages only */
+@page :left {
+    margin-right: 4cm;
+}
+
+/* target right (odd-numbered) pages only */
+@page :right {
+    margin-left: 4cm;
+}
+
+* {
+    background-image: none !important;
+}
+
+img, svg {
+    display: none !important;
+}
+
+img.print, svg.print {
+    display: block;
+    max-width: 100%;
+}
+
+.page {
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+}
+
+article.chapter {
+    border: 1px;
+    padding: 1px;
+    color: blue;
+    break-inside: avoid-page;
+}
+
+article.chapter p {
+    color: rebeccapurple;
+    break-inside: avoid-column;
+    page-break-inside: avoid;
+    overflow: hidden; /* fix for firefox */
+}
+
+
+article.chapter li {
+    break-inside: avoid-column;
+    page-break-inside: avoid;
+    overflow: hidden; /* fix for firefox */
+}
+
+@supports (break-inside: avoid-column) {
+    article.chapter p {
+        overflow: visible; /* for chrome */
+    }
+    article.chapter li {
+        overflow: visible; /* for chrome */
+    }
+}
+
+article.chapter h1,h2,h3 {
+    break-after: avoid;
+}
+
+
+
+article.chapter.one {
+    column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+}
+

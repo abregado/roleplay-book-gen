@@ -1,0 +1,28 @@
+---
+---
+
+.page {
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul.vertbar {
+    float:left;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 100px;
+    position: fixed;
+}
+
+ul.vertbar li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+ul.vertbar li a:hover {
+    text-decoration: none;
+    color: brown;
+    background-color: azure;
+}
