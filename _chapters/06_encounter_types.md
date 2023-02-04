@@ -318,7 +318,7 @@ While you could roll before you discover the difficulty, it is often worth it to
 Before the skill challenge started, the dungeon master decided on a relevance level for each skill. These may become known to the players during the challenge, but to start with will most likely be secret. Some might be obvious, like the Stealth skill when sneaking into a castle to steal secret plans, or Survival when tracking a band of owlbears through the woods. Relevant skills are one level easier, and non-relevant skills are one level harder.
 The GM then decides on the difficulty. This determines the Difficulty Class for the check.
 
-
+{: .roll_table}
 | Task Difficulty       | DC  |
 |:----------------------|-----|
 | Very Easy             | 5   |
