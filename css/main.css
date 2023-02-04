@@ -43,7 +43,6 @@ article h3 {
 }
 
 article ul {
-    width: 80%;
     margin-left: 0;
     padding-left: 10px;
     list-style: none;
@@ -53,6 +52,23 @@ article ul li {
     margin-bottom: 6px;
     padding: 5px;
     text-indent: -15px;
+}
+
+article ul.itemlist {
+    list-style: square;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+article ul.itemlist li {
+    margin: 0px;
+    margin-left: 10px;
+    text-indent: 0px;
+}
+
+p.itemlist_prefix {
+    margin-bottom: 5px;
+    padding-bottom: 0px;
 }
 
 
@@ -74,6 +90,7 @@ ol.step_list {
 }
 
 ol.step_list>li:before {
+    font-weight: bold;
     content: "Step " counter(elementcounter) ": ";
     counter-increment: elementcounter;
 }
@@ -157,3 +174,7 @@ table.roll_table th {
 table.roll_table tr:nth-child(even) {
     background-color: lightgray;
 }
+
+
+
+

@@ -9,13 +9,12 @@ Many battles fought during the game will be played on a grid with tokens represe
 
 Grid based combat gives the players and GM a good overview of the action, allowing them to more easily declare actions that make sense for everyone. One downside of this style of combat is that it can take much longer than other methods to complete.
 ## Beginning Combat
-Setting up combat takes place in two steps.
+Setting up combat takes place in three steps.
 
-First, the GM positions all creature tokens onto the map, and explains any important interactable objects or dangerous areas.
-
-Secondly, the GM determines if any creatures in the combat will start with the Surprised condition. This can happen in a number of ways.
-
-Secondly, players and the GM roll an Initiative test for each unsurprised creature they control. An Initiative test is a special type of Dexterity ability check, which may have additional modifiers.
+{: .step_list}
+1. the GM positions all creature tokens onto the map, and explains any important interactable objects or dangerous areas.
+2. the GM determines if any creatures in the combat will start with the Surprised condition. This can happen in a number of ways.
+3. players and the GM roll an Initiative test for each unsurprised creature they control. An Initiative test is a special type of Dexterity ability check, which may have additional modifiers.
 
 Surprised creatures have an Initiative score of zero.
 ## Combat Round structure
@@ -23,10 +22,13 @@ Once the combat is set up, creatures take their turns based on their Initiative 
 
 Each round is 6 seconds. During each round, each creature will complete one turn.
 
+{: .itemlist_prefix}
 A turn consists of three parts:
+
+{: .itemlist}
 - Start Turn
 - Turn Actions and Movement
-- End Turn
+-  End Turn
 
 ### Start Turn
 Many abilities and features will have special effects that must be determined at the start of a creature's turn. Be sure to sort these out before continuing.
@@ -145,6 +147,7 @@ A creature or character may use any action, bonus action, reaction or free actio
 ## Making an Attack
 When making an Attack, whether it is with a sword, spell or bow, the same process applies.
 
+{: .step_list}
 1. Choose a target within range that the creature can detect. The target can be a creature, object or specific location.
 2. GM determines the type of attack roll and if it will be Risky.
 3. GM determines the Difficulty Class, any modifiers and whether the roll has Advantage or Disadvantage.
@@ -152,7 +155,10 @@ When making an Attack, whether it is with a sword, spell or bow, the same proces
 5. Resolve the strike.
 
 ### Types of Attack Roll
+{: .itemlist_prefix}
 There are four types of attack roll:
+
+{: .itemlist}
 - Melee weapon attack roll
 - Ranged weapon attack roll
 - Melee spell attack roll 
@@ -186,14 +192,18 @@ When making melee spell or melee weapon attack rolls against Prone targets, the 
 
 # Travel Encounters
 ## Starting a Journey
+
+{: .step_list}
 1. Players choose a destination within 1 days travel.
 2. GM decides the navigation DC and if the trip is considered Risky.
 3. Each player chooses one downtime activity.
 4. A Wisdom ability check is made for each character using the navigator's ability score. On a failure, the character must forgo their Downtime activity due to lateness.
 
 ## Consequences
+{: .itemlist_prefix}
 If the check is Risky and more than half the rolls fail, then one of several things might happen:
 
+{: .itemlist}
 - One or more characters have an unsuccessful long rest.
 - One or more characters gain a level of exhaustion.
 - The party is attacked.
@@ -204,10 +214,14 @@ If the check is Risky and more than half the rolls fail, then one of several thi
 ## Travel distance
 The party travels are the slowest speed any of their party can travel.
 
-- Walking: 30km a day
-- Cart or Horse: 50km a day
-- Fast Horse: 80km a day
-- Short Trips
+{: .roll_table}
+| Method        | Distance |
+|:--------------|---|
+| Walking       | 30km a day|
+| Cart or Horse | 50km a day|
+| Fast Horse    | 80km a day|
+
+### Short Trips
 
 If the target is within 1/3rd of the daily travel distance, then no roll needs to be made. The party knows the way and takes no risks that may cause them to get lost.
 
@@ -337,8 +351,10 @@ If a character is suffering from the Exhausted condition at the start of a Long 
 ## Introduction
 A skill challenge is a scene where the players and game master collaborate to narrate what happens. In a normal scene, the players explain their intent and the GM narrates the outcome. During a skill challenge, the players narrate a shot of their character, including the challenge and the outcome. The GM only narrates an overview of the situation, to give the players something to feed off for inspiration, if something goes really badly or the players are not sure what could happen. Think of it like a film montage.
 
+{: .itemlist_prefix}
 There are some points to think about when running a skill challenge:
 
+{: .itemlist}
 - The characters cannot fail a skill challenge. The challenge measures HOW WELL they succeed, not IF they succeed.
 - Every action needs to be based on one of the characters skills, and only skills which that player is proficient in.
 - Each skill can only be used collectively once. In the example above, once the Ranger used their Acrobatics skill, the Rogue couldn’t use it anymore.
@@ -367,7 +383,10 @@ You may choose from any skill, as long as your character is proficient with it. 
 ### Step 2: Narrate your shot
 Tell everyone what your character does, and how it helps. Imagine the camera focusing on your character for this. For dramatic effect you could also narrate what the character does right up until the critical moment, and what they intend to happen, before moving on to the next step.
 
+{: .itemlist_prefix}
 The game master should look fondly upon the following:
+
+{: .itemlist}
 - Matching the narration to the skill chosen.
 - Choosing an action/outcome which is in character.
 - Choosing an action/outcome which matches one of your characters personality traits.
@@ -376,7 +395,10 @@ The game master should look fondly upon the following:
 - Using leads which the other players created.
 - If there are mooks (throwaway npc’s) involve them in your narration.
 
+{: .itemlist_prefix}
 Things to avoid:
+
+{: .itemlist}
 - Narrating what another player’s character does.
 - Narrating the end of the challenge. Just narrate something which brings the group closer to the goal.
 - If there is a primary npc antagonist, narrating a reaction from them.
@@ -406,7 +428,10 @@ The GM will reward you with advantage, bonuses or even perhaps a change of diffi
 #### Sacrifice
 A sacrifice involves committing to something which will make life difficult for the party. This can be simple like discarding an item, ability or token your character has. An example would be a spell slot or a valuable treasure. The sacrifice needs to be something of true loss so just expending spell slots while knowing the group will be taking a long rest soon is not a sacrifice.
 
+{: .itemlist_prefix}
 Some examples could be:
+
+{: .itemlist}
 - Using a non-rechargeable item that has one charge left.
 - Lowering your spell slot maximum during the next rest.
 - Gaining levels of exhaustion.
@@ -442,7 +467,10 @@ An example of this from the story above is when the Ranger leaps out to save the
 ### Step 6: GM narrated outcome
 This is the game master's chance to add some new information, move the challenge to a new setting, or simply to finish up a player's narration.
 
+{: .itemlist_prefix}
 There could also be additional consequences for success or failure, such as:
+
+{: .itemlist}
 - The next skill test could be easier/harder.
 - Loss of a resource, token, item, ect.
 - Conditions being applied to characters.
@@ -497,7 +525,10 @@ Be sure to set a few obvious no-go areas. An example here could be:
 
 Reward players using those rare skills. Most dungeon crawls rely heavily on Athletics (Strength), Stealth (Dexterity), Perception (Wisdom), but the others often get left behind.
 
-What to do if they run out of skills
+{: .itemlist_prefix}
+What to do if they run out of skills:
+
+{: .itemlist}
 - A level 1 character can have a minimum of 2 skill proficiencies. Assuming the worst case and all the characters have the same proficiencies, they won’t have enough tests to get through a challenge. Here you can do a number of things:
 - Allow the players to use Saving Throws as well.
 - Ask each player to add a single proficiency to their character just for the skill challenge.
@@ -506,7 +537,10 @@ What to do if they run out of skills
 - Allow them to use any skill, not just proficiencies.
 - Allow using the same skill more than once, as long as the shots are differently narrated.
 
+{: .itemlist_prefix}
 If your group gets to the final check, but only has a few skills which are not very relevant remaining, you have a few options:
+
+{: .itemlist}
 - Tell them to suck it up and get creative (or crazy!)
 - Allow them to risk a non-relevant check with easy difficulty to re-enable one more relevant skill.
 - Give them an opening, allowing them to roll a plain ability score check.
