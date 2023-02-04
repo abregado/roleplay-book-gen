@@ -9,4 +9,5 @@ partials:
   - "_includes"
 
 collections:
-  _chapters
+  chapters:
+    output: true

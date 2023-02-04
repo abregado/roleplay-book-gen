@@ -1,6 +1,18 @@
 <ul class="vertbar">
     {% for chapter in site.chapters %}
-    {% assign id = # | append: {{chapter.label}} %}
-    <li><a href={{id}}>{{chapter.title}}</a></li>
+        {% assign id_link = chapter.path | split:"/" | last | split:"." | first %}
+        <li>
+            <a href="#{{id_link}}">{{chapter.title}}</a>
+        </li>
+    {% if chapter.extra-nav %}
+
+        {% for subnav in chapter.extra-nav %}
+        {% capture sub_link %}#{{subnav}}{% endcapture %}
+        <li class="subnav">
+            <a href="{{sub_link}}">{{subnav}}</a>
+        </li>
+        {% endfor %}
+
+    {% endif %}
     {% endfor %}
 </ul>

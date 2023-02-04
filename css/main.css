@@ -1,18 +1,119 @@
 ---
 ---
 
+body {
+    font-family: Arial;
+}
+
 .page {
-    margin-left:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 10px;
+    width: 70%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 65%;
+}
+
+.sidebar {
+    flex-basis: 35%;
+    margin-right: 25px;
+}
+
+article {
+
+}
+
+article h1 {
+    font-size: 1.7em;
+}
+
+article h2 {
+    font-size: 1.3em;
+}
+
+article h3 {
+    font-size: 1.1em;
+}
+
+article ul {
+    width: 80%;
+    margin-left: 0;
+    padding-left: 10px;
+    list-style: none;
+}
+
+article ul li {
+    margin-bottom: 6px;
+    padding: 5px;
+    text-indent: -15px;
+}
+
+
+article ol {
+    width: 80%;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+article ol li {
+    padding: 5px;
+    margin-bottom: 6px;
+}
+
+ol.step_list {
+    list-style-type: none;
+    counter-reset: elementcounter;
+    width: 100%;
+}
+
+ol.step_list>li:before {
+    content: "Step " counter(elementcounter) ": ";
+    counter-increment: elementcounter;
+}
+
+article p.example_green {
+    background-color: antiquewhite;
+    color: darkolivegreen;
+    border-left: solid 4px darkolivegreen;
+    margin-left: 5px;
+    padding: 20px 20px 20px 10px;
+}
+
+article p.example_red {
+    background-color: antiquewhite;
+    color: darkred;
+    border-left: solid 4px darkred;
+    margin-left: 5px;
+    padding: 20px 20px 20px 10px;
+}
+
+h1.chapter_title {
+    font-size: 2em;
+}
+
+h1.title {
+    margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    text-align: center;
 }
 
 ul.vertbar {
-    float:left;
     list-style-type: none;
-    margin: 0;
-    padding-left: 100px;
-    position: fixed;
+    margin-left: auto;
+}
+
+ul.vertbar li {
+    background-color: lightgray;
+    border-left: solid darkgray 4px;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 ul.vertbar li a {
@@ -21,8 +122,38 @@ ul.vertbar li a {
     color: black;
 }
 
-ul.vertbar li a:hover {
+ul.vertbar li:hover {
     text-decoration: none;
     color: brown;
     background-color: azure;
+    border-left: solid darkblue 4px;
+
+}
+
+ul.vertbar li.subnav {
+    margin-left:10px;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+table.roll_table {
+    text-align: left;
+}
+
+table.roll_table td {
+    vertical-align: top;
+    padding:5px;
+}
+
+table.roll_table th {
+    font-size: 1.1em;
+    padding: 8px;
+    background-color: lightgray;
+}
+
+
+table.roll_table tr:nth-child(even) {
+    background-color: lightgray;
 }

@@ -1,5 +1,6 @@
 ---
-layout: "default"
+title: Mundane Knowledge
+layout: "section"
 ---
 
 Every character:

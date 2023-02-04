@@ -4,11 +4,11 @@ permalink: /
 layout: default
 ---
 
-<div class="page">
 {% for item in site.chapters %}
-<article class="chapter">
-    <h1>{{ item.title }}</h1>
-    <p>{{ item.content }}</p>
-</article>
+    {% assign id_link = item.path | split:"/" | last | split:"." | first %}
+    <article class="chapter">
+        <h1 class="chapter_title" id="{{id_link}}">{{ item.title }}</h1>
+        <p>{{ item.content }}</p>
+        <hr>
+    </article>
 {% endfor %}
-</div>
