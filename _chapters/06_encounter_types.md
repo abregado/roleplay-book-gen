@@ -265,8 +265,76 @@ If a character is suffering from the Exhausted condition at the start of a Long 
 
 # Skill Challenge Encounter
 
-TODO: Add the example scene back in
+## Example
+> **GM:** You have been tracking your target all day and finally you find yourself in a crowded and lively bar, at a table on the upper floor overlooking the table of the target. The barmaid brings a round of unordered drinks and says “from your friend downstairs”. At that moment the target makes eye contact with you, heads for the door and punches a drunk, causing a bar fight to break out on the first floor.
 
+{: .example_green}
+*notes secretly 4 success and 3 failures required.
+
+> **Barbarian player:** I'd like to use my Athletics. Goresh vaults the balustrade, flipping a table to create a ramp as she lands so the others can make it faster to the door.
+
+> **GM:** Make your roll, Medium difficulty (15) since the fight only just started. This sounds very in character of Goresh, so you can add 1 extra to your roll.
+
+> **Barbarian player:** Rolls 17, success, even with a bad roll. I guess the table ends up exactly where I expected and Goresh makes it outside easily by pushing through the crowd of puny people.
+
+> **GM:** Ok who wants to go next?
+
+> **Bard player:** I’ll use Performance, perhaps I can soothe the fighting drunks with a song. Barry runs down the ramp towards the door, hammering out a calming song on his Lute. I’d also take one less max level spell slot in the next encounter to help out with magic. Perhaps if it really goes well he knee slides while he strums a particularly amazing riff.
+
+> **GM:** Indeed, hammering out a soothing song will be Hard difficulty (20), especially against drunks. Spell slot gives you advantage however.
+
+> **Bard player:** Rolls 18, failure. Damn! I don’t know what happens then.
+
+> **GM:** You don’t stop running as you play and as you reach the door one of the drunks tries to tackle you to shut you up…
+
+> **Ranger player:** \[Interrupting\] Gwen comes to the rescue, completing a triple somersault over the entire group of drunks, and pulls Barry out of danger, Acrobatics please!.
+
+> **GM:** roll it… Hard difficulty (20)
+
+> **Ranger player:** 25, success!
+
+> **GM:** ok, that cancels the failure because you were so quick, but doesnt count as a success for the challenge. Nice save. You and Barry break into the alley in front of the tavern, and see Goresh looking around for the target.
+
+> **Barbarian player:** I guess I'll try Survival to see if I can track him...
+
+> **Rogue player:** Don’t bother. Lars whistles from a nearby rooftop and points out which way the target is heading. I was outside the whole time having a cigar with the cook and saw which way the target went. Stealth! *Rolls 27.
+
+> **GM:** Indeed, regardless of difficulty that is a success. The party heads off in that direction. Does Goresh want to follow up with some Survival?
+
+> **Barbarian player:** Nah, I’ll save it for now, Goresh only has 2 more skills to use.
+
+> **Ranger player:** Gwen deftly climbs up to the roof and follows Lars, leaping between buildings and over the smaller alleys, trying to predict which way the target will turn and then try to cut him off. Insight?
+
+> **GM:** or Perception, but it's midnight with a half moon and Gwen doesn't have darkvision, so it would be Easy (10) with disadvantage or Medium (15) with Insight.
+
+> **Ranger player:** Insight please, Rolls 14. Close but a fail! Gwen takes a wrong turn. She swears loudly, which warns the target that they are closing.
+
+> **GM:** Thanks for narrating your own failure! Very Gwen of you. Indeed the target has spotted the group! But the chase is still on. The target jumps down and enters a large door in a building. Looks like a stable or maybe a warehouse.
+
+> **Barbarian player:** This guy knows we are on to him, time to do things the Goresh way. Goresh shoulder charges the door and as she smashes through the door, splinters flying, she roars “You can’t run AND you can’t hide! Come out and live!”. Intimidate, I rolled a 21.
+
+> **GM:** Seems pretty frightening to me, even though this is the target’s home turf. Hard (20) so nice roll. The warehouse is dark, rows of shelves stand in long rows the whole length of the room. You hear something moving in the dark, the target is still here!
+
+> **Rogue player:** Lars has been in this part of town before and remembers that the building only has two exits, he drops from the roof and enters through the second door. History? The target can’t escape now!
+
+> **GM:** Sure, Lars has been here before, but History is a stretch! Hard (20).
+
+> **Rogue player:** Rolls 19, damn! I guess there might be a third door...
+
+> **GM:** That’s 2 out of 3 failures and 3 out of 4 successes. It’s getting tight. The party hears warning horns being blown and the Ranger’s enhanced hearing picks up shouts from the town watch. You all know that it isn't long until the fuzz arrives and once they do you won’t be allowed to question the target again. What do you have left that isn't used?
+
+> **Bard player:** Persuasion… I guess I have that Scroll of Astral Projection I've been saving… but please, only as a last resort.
+
+> **Barbarian player:** Survival. Everything else I have left has been used by someone else!
+
+> **Rogue player:** Investigation and Sleight of Hand.
+
+> **Ranger player:** Animal Handling… oh crap, that Acrobatics skill could have come in handy right now...
+
+*So how does this play out? Think about what you would do with your character.*
+
+
+## Introduction
 A skill challenge is a scene where the players and game master collaborate to narrate what happens. In a normal scene, the players explain their intent and the GM narrates the outcome. During a skill challenge, the players narrate a shot of their character, including the challenge and the outcome. The GM only narrates an overview of the situation, to give the players something to feed off for inspiration, if something goes really badly or the players are not sure what could happen. Think of it like a film montage.
 
 There are some points to think about when running a skill challenge:
