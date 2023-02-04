@@ -59,7 +59,9 @@ The creature drops any items it was holding when it gains this condition.
 
 **Incapacitated \[Condition\]:** The creature cannot take Actions of any sort during its turn.
 
-Exhausted \[Condition\]: Creatures can gain this condition multiple times.
+**Exhausted \[Condition\]:** Creatures can gain this condition multiple times. The effect it has is based on how many times the creature has suffered this condition.
+
+{: .itemlist}
 - Level 1: The creature has disadvantage on ability checks.
 - Level 2: The creature gains the Slowed condition.
 - Level 3: The creature gains the Weakened condition.
