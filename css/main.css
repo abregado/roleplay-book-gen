@@ -1,8 +1,13 @@
 ---
 ---
 
+:root {
+    --adoblue: #1a202c;
+}
+
 body {
     font-family: Arial;
+    color: var(--adoblue);
 }
 
 .page {
@@ -27,19 +32,27 @@ body {
 }
 
 article {
+    margin-bottom: 50px;
+}
 
+h1.chapter_title {
+    font-size: 2em;
+    color: black;
 }
 
 article h1 {
     font-size: 1.7em;
+    color: #333333;
 }
 
 article h2 {
     font-size: 1.3em;
+    color: #444444;
 }
 
 article h3 {
     font-size: 1.1em;
+    color: #444444;
 }
 
 article ul {
@@ -96,24 +109,30 @@ ol.step_list>li:before {
 }
 
 article p.example_green {
-    background-color: antiquewhite;
-    color: darkolivegreen;
-    border-left: solid 4px darkolivegreen;
+    background-color: #CBF3F0;
+    color: black;
+    border-left: solid 4px #2EC4B6;
     margin-left: 5px;
     padding: 20px 20px 20px 10px;
 }
 
 article p.example_red {
-    background-color: antiquewhite;
-    color: darkred;
-    border-left: solid 4px darkred;
+    background-color: #FFBF69;
+    color: black;
+    border-left: solid 4px #FF9F1C;
     margin-left: 5px;
     padding: 20px 20px 20px 10px;
 }
 
-h1.chapter_title {
-    font-size: 2em;
+article p.example_grey {
+    background-color: whitesmoke;
+    color: black;
+    border-left: solid 4px darkgrey;
+    margin-left: 5px;
+    padding: 20px 20px 20px 10px;
 }
+
+
 
 h1.title {
     margin-left: auto;
@@ -127,8 +146,8 @@ ul.vertbar {
 }
 
 ul.vertbar li {
-    background-color: lightgray;
-    border-left: solid darkgray 4px;
+    background-color: #FFBF69;
+    border-left: solid #FF9F1C 4px;
     padding: 5px;
     margin-bottom: 5px;
 }
@@ -141,9 +160,8 @@ ul.vertbar li a {
 
 ul.vertbar li:hover {
     text-decoration: none;
-    color: brown;
-    background-color: azure;
-    border-left: solid darkblue 4px;
+    background-color: #CBF3F0;
+    border-left: solid #2EC4B6 4px;
 
 }
 

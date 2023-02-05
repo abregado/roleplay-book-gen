@@ -282,7 +282,7 @@ If a character is suffering from the Exhausted condition at the start of a Long 
 ## Example
 > **GM:** You have been tracking your target all day and finally you find yourself in a crowded and lively bar, at a table on the upper floor overlooking the table of the target. The barmaid brings a round of unordered drinks and says “from your friend downstairs”. At that moment the target makes eye contact with you, heads for the door and punches a drunk, causing a bar fight to break out on the first floor.
 
-{: .example_green}
+{: .example_grey}
 *notes secretly 4 success and 3 failures required.
 
 > **Barbarian player:** I'd like to use my Athletics. Goresh vaults the balustrade, flipping a table to create a ramp as she lands so the others can make it faster to the door.
@@ -440,7 +440,7 @@ Some examples could be:
 - Losing trust or favour with a powerful patron or ally.
 - Losing respect with the local populace.
 
-{: .example_green}
+{: .example_grey}
 An example in the story above would have been when the Barbarian flipped the table, perhaps he could have bartered with the game master to have the difficulty lowered, at the expense of the tavern owner seeing it happen.
 
 Another type of sacrifice can be made, in the form of raising the stakes. In these cases, you can ask the game master to add an extra consequence for failure in exchange for making a test easier. Be prepared for evil grins.
@@ -455,12 +455,12 @@ This is your time to be the game master. Narrate how your character overcomes th
 If you are not sure how to narrate the outcome, you can ask the game master to do it for you. Sometimes you have a really cool idea for a successful outcome in mind, but it just doesn't occur. Save that idea for a later date (or the Improvise action in combat). Never ask another player to narrate what your character does, that is only for you (and on occasions like this, the game master).
 Remember, that you are not narrating a hard failure here, but something bad happening which hinders the character from adding progress to the overall goal.
 
-{: .example_green}
+{: .example_grey}
 An example of this is when the Ranger makes the wrong call while following the target from the rooftops. They added a little something for other players to use for inspiration, and demonstrated how they didn’t add anything to the overall progress.
 
 If it is another player's turn to roll, and they fail, you may interrupt in an attempt to have your character save them. Be quick, and don’t falter in your delivery! Repeat steps 2, 3 and 4 as fast as you can! Yell out your Skill and then start narrating how you get them out of this jam while rolling. The game master will decide your difficulty while you do this.
 
-{: .example_green}
+{: .example_grey}
 An example of this from the story above is when the Ranger leaps out to save the Bard from being stuck in the bar fight.
 
 
@@ -480,16 +480,16 @@ There could also be additional consequences for success or failure, such as:
 - Making a skill less/more relevant.
 - Revealing the required successes or failures.
 
-{: .example_green}
+{: .example_grey}
 An example could be that had Stealth not been used previously, the Barbarian smashing through the warehouse door could have meant Stealth was no longer an option, or it is harder (less relevant).
 
-{: .example_green}
+{: .example_grey}
 Another example could be that if the Bards song was very successful, perhaps the Persuasion skill could have become more relevant, prompting players to come up with shots that focus on using that skill.
 
 ### Step 7: Resolution
 The game master does not need to reveal how many more successes or failures the party can take, they can instead try to show this through narration.
 
-{: .example_green}
+{: .example_grey}
 In the example above, the game master could have only narrated the sound of the watch closing in, to let the players know they are one failure away from the end of the challenge. Instead in this case, they chose to mention it so the players could be sure.
 
 If a player just gained the final success or failure, the game master should narrate the final part of the challenge. Remember that the challenge does not determine if the party wins or loses, but how good the outcome is. A complete failure only means they get the worst possible outcome for the wider plot.
@@ -504,7 +504,7 @@ If your group has very short sessions, or your players need a little more time, 
 
 For skill relevancies, make a list of all the skills your group has. Are there any that they rarely use? Are there any that the players take for granted? Based on that information, and the setting you intend to place them in, create your set of relevancies.
 
-{: .example_green}
+{: .example_grey}
 An example: Your players all have Athletics, and groan whenever you ask for a skill challenge, easily succeeding with +10 to their rolls? Add in a hot day, and make those checks harder (less relevant) or even disallow them completely. Make sure they know this before you start.
 
 ### Set some constraints for yourself
