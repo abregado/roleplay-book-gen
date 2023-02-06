@@ -279,11 +279,13 @@ If a character is suffering from the Exhausted condition at the start of a Long 
 
 # Skill Challenge Encounter
 
-## Example
-> **GM:** You have been tracking your target all day and finally you find yourself in a crowded and lively bar, at a table on the upper floor overlooking the table of the target. The barmaid brings a round of unordered drinks and says “from your friend downstairs”. At that moment the target makes eye contact with you, heads for the door and punches a drunk, causing a bar fight to break out on the first floor.
+## Introduction
+A skill challenge is a scene where the players narrate what happens and game master adjudicates. 
 
-{: .example_grey}
-*notes secretly 4 success and 3 failures required.
+In a normal scene, the players explain their intent and the GM narrates the outcome based on a roll. During a skill challenge The GM only narrates an overview of the situation, to give the players something to feed off for inspiration. Then the players take it in turns narrating a shot of their character solving the problem. The GM only gives input during a shot to negotiate the difficulty with the player. After a roll, the active player finishes narrating either the positive or negative outcome.  If something goes really badly or the players are not sure what could happen, the GM can step in to help. Think of it like a film montage, but directed by the viewers.
+
+## Example
+> **GM:** You have been tracking your target all day and finally you find yourself in a crowded and lively bar, at a table on the upper floor overlooking the table of the target. The barmaid brings a round of unordered drinks and says “from your friend downstairs”. At that moment the target makes eye contact with you, heads for the door and punches a drunk, causing a bar fight to break out on the first floor. Let's resolve this using a Skill challenge. 4 successes needed before 3 failures.
 
 > **Barbarian player:** I'd like to use my Athletics. Goresh vaults the balustrade, flipping a table to create a ramp as she lands so the others can make it faster to the door.
 
@@ -347,20 +349,21 @@ If a character is suffering from the Exhausted condition at the start of a Long 
 
 *So how does this play out? Think about what you would do with your character.*
 
+## Why use a skill challenge?
+Don't feel like leaving your party's success to a roll is good for your plot? Planned a non-interactive scene where you will narrate that success to your players? Instead of spending time coming up with interesting details for that scene, why not get your players to help out?
 
-## Introduction
-A skill challenge is a scene where the players and game master collaborate to narrate what happens. In a normal scene, the players explain their intent and the GM narrates the outcome. During a skill challenge, the players narrate a shot of their character, including the challenge and the outcome. The GM only narrates an overview of the situation, to give the players something to feed off for inspiration, if something goes really badly or the players are not sure what could happen. Think of it like a film montage.
+## Preparing for a Skill Challenge
+To begin you only need an opening scene description which begins with the problem starting. You want to bring the players in on what is happening, so don't try to obfuscate the situation. Be very clear about what the players need to achieve, and how many successes and failures the test will involve.
 
-{: .itemlist_prefix}
-There are some points to think about when running a skill challenge:
+Decided on a relevance level for each skill. These may become known to the players during the challenge, but to start with will most likely be secret. Some might be obvious, like the Stealth skill when sneaking into a castle to steal secret plans, or Survival when tracking a pack of wolves through the woods.
 
-{: .itemlist}
-- The characters cannot fail a skill challenge. The challenge measures HOW WELL they succeed, not IF they succeed.
-- Every action needs to be based on one of the characters skills, and only skills which that player is proficient in.
-- Each skill can only be used collectively once. In the example above, once the Ranger used their Acrobatics skill, the Rogue couldn’t use it anymore.
-- Players should be rewarded for creativity and roleplay.
-- The game master should be less in control of the action than in a normal scene, this is the party’s turn to fully narrate the actions of their characters.
-- It should involve all players at least once.
+Tell your players that their characters cannot fail a skill challenge. The challenge measures HOW WELL they succeed, not IF they succeed.
+
+Every action needs to be based on one of the characters skills, and only skills which that player is proficient in. Give your players warning so that they can already start thinking of fun ways to use a skill.
+
+The game master will be less in control of the action than in a normal scene, this is the party’s turn to fully narrate the actions of their characters. If a player gets too creative, feel free to step in, but try not to shut them down. At most just bring them back to earth and let them continue.
+
+Be aware of which players are most likely to want the limelight and which will try to stay out of it. Be prepared to involve all players at least once.
 
 ## The Structure
 The party must collect enough successes, while gathering as few failures as possible. The players collect successes and failures by making rolls using Skill checks, and they make skill checks by narrating a shot of their character doing something to further the group goal.
@@ -375,13 +378,17 @@ The party must collect enough successes, while gathering as few failures as poss
 7. Resolution
 
 ### Step 1: Choose a Skill
-You may choose from any skill, as long as your character is proficient with it. You may also use a Tool proficiency. Weapon and armor proficiencies are not usable at all. If you want to have your character communicate during your narration, they must have at least one Language which suits.
+You may choose from any skill, as long as your character is proficient with it and no other player has used that skill in a previous shot. You may also use a Tool proficiency. Weapon and armor proficiencies are not usable at all. If you want to have your character communicate during your narration, they must have at least one Language which suits.
+
+{: .example_green} 
+In the example above, once the Ranger used their Acrobatics skill, the Rogue couldn’t use it anymore.
 
 {: .example_red}
 **Note:** Not all Skills are as relevant for a given skill challenge, but there is more about this below.
 
+
 ### Step 2: Narrate your shot
-Tell everyone what your character does, and how it helps. Imagine the camera focusing on your character for this. For dramatic effect you could also narrate what the character does right up until the critical moment, and what they intend to happen, before moving on to the next step.
+Tell everyone what your character does, and how it helps. Imagine the camera focusing on your character for this. Narrate what the character does right up until the critical moment, and what they intend to happen, before moving on to the next step. Make it dramatic! 
 
 {: .itemlist_prefix}
 The game master should look fondly upon the following:
@@ -389,7 +396,7 @@ The game master should look fondly upon the following:
 {: .itemlist}
 - Matching the narration to the skill chosen.
 - Choosing an action/outcome which is in character.
-- Choosing an action/outcome which matches one of your characters personality traits.
+- Choosing an action/outcome which matches one of your character's personality traits.
 - Narrating the use of a one time item or feature.
 - Creating leads which other players can use for inspiration.
 - Using leads which the other players created.
@@ -400,13 +407,11 @@ Things to avoid:
 
 {: .itemlist}
 - Narrating what another player’s character does.
-- Narrating the end of the challenge. Just narrate something which brings the group closer to the goal.
 - If there is a primary npc antagonist, narrating a reaction from them.
+- - Narrating the end of the challenge. Just narrate something which brings the group closer to the goal. If you know this is the final success, then save your coop-de-gras for Step 5.
 
 ### Step 3: GM decides difficulty
 While you could roll before you discover the difficulty, it is often worth it to wait, so you can haggle with the game master.
-
-Before the skill challenge started, the dungeon master decided on a relevance level for each skill. These may become known to the players during the challenge, but to start with will most likely be secret. Some might be obvious, like the Stealth skill when sneaking into a castle to steal secret plans, or Survival when tracking a pack of wolves through the woods. 
 
 Relevant skills are one level easier, and non-relevant skills are one level harder.
 
@@ -447,7 +452,7 @@ Another type of sacrifice can be made, in the form of raising the stakes. In the
 If the party is already doing very well, don’t push your luck by haggling too hard with the game master. Remember it is still their job to keep the game moving, so if they say no, just roll with it.
 
 ### Step 4: Roll
-Simple as it comes. Roll a d20 and add your skill modifier. Equal or above and the party gains a success! Less, and you gain a failure. If one of your party members is making the roll this time, get ready to jump in in case they fail (see below).
+Simple as it comes. Roll a d20 and add your skill modifier. Equal or above and the party gains a success! Less, and you gain a failure. If one of your party members is making the roll this time, get ready to jump in, in case they fail (see below).
 
 ### Step 5: Player narrated outcome
 This is your time to be the game master. Narrate how your character overcomes the situation, or how they fail. Especially, narrate how this costs the characters some valuable time or sets back their progress.
@@ -474,7 +479,7 @@ There could also be additional consequences for success or failure, such as:
 - The next skill test could be easier/harder.
 - Loss of a resource, token, item, ect.
 - Conditions being applied to characters.
-- Revealing the relevance of a skill..
+- Revealing the relevance of a skill.
 - Allowing a used skill to be reused.
 - Disallowing a skill to be used.
 - Making a skill less/more relevant.
@@ -546,12 +551,12 @@ If your group gets to the final check, but only has a few skills which are not v
 - Give them an opening, allowing them to roll a plain ability score check.
 - End the session there for a great cliffhanger, and give them until the next session to come up with a group shot.
 
-## When to use skill challenges
+## Other places to use skill challenges
 There are a lot of places where skill challenges can replace the more tedious parts of your campaign. Here are just a few ideas.
 
 If your group tends to be slower in combat, replace wandering monsters in a dungeon with a very short skill challenge. Since the characters won't be taking rests as often, allow them to use ammunition, hitpoint, hit dice and spell slots as sacrifices.
 
-Overland travel can be completely replaced with skill challenges. Narrate one or most very simple obstacles that the group will pass on the way and have the players choose how they overcome them. This can also include random combat encounters. For example:
+Overland travel can be completely replaced with skill challenges. Narrate one or more very simple obstacles that the group will pass on the way and have the players choose how they overcome them. This can also include random combat encounters. For example:
 
 > **GM:** It is a three day trip to Westbridge along the river. The group will also have to go through Goblin Bone Pass and cross the Mad Kings Road at some point. Perhaps you should be extra careful and take 4 days? Medium skill challenge, 2 successes, go!
 
