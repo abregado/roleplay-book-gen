@@ -53,7 +53,7 @@ Attacks against the creature are made with advantage.
 The creature suffers disadvantage on all its attack rolls.
 
 **Unconscious \[Condition\]:** The creature gains the Paralysed, Restrained, Deafened and Blinded conditions.
-The creature drops any items it was holding when it gains this condition.
+The creature drops any items it was holding when it gains this condition. This condition is removed if it regains any hitpoints.
 
 **Slowed \[Condition\]:** The all of the creature's movement types have their movement halved. The creature has disadvantage on Dexterity saving throws.
 
@@ -86,3 +86,4 @@ This condition can be removed by discarding some of their items.
 
 If the creature ever has 3 Bleeding successes, this condition is removed and the creature gains 1 hitpoint.
 If the creature ever has 3 Bleeding failures, this condition is removed and the creature dies.
+This condition is removed if the creature regains any hit points.

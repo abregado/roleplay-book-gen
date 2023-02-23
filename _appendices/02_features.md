@@ -77,6 +77,11 @@ The caster’s spells slots all increase in level together, meaning the caster o
 
 # Errata features
 
+##  Relentless Endurance
+You are able to continue fighting even after sustaining deadly wounds.
+
+**Free action, when you are reduced to zero hitpoints.** Do not gain the Unconscious condition. At the end of your next turn, gain the Unconscious condition. You still gain the Bleeding out condition.
+
 ## Frenetic Crescendo
 
 Requirements: 6th level Bard of the Maestro.
