@@ -1,0 +1,21 @@
+<ul class="vertbar">
+    <li><a href="/">Return to rules</a></li>
+    <h1>Appendices</h1>
+
+    {% for appendix in site.appendices %}
+    {% assign id_link = appendix.path | split:"/" | last | split:"." | first %}
+    <li>
+        <a href="{{appendix.url}}">{{appendix.title}}</a>
+    </li>
+    {% if appendix.extra-nav %}
+
+    {% for subnav in appendix.extra-nav %}
+    {% capture sub_link %}{{appendix.url}}/#{{subnav}}{% endcapture %}
+    <li class="subnav">
+        <a href="{{sub_link}}">{{subnav}}</a>
+    </li>
+    {% endfor %}
+
+    {% endif %}
+    {% endfor %}
+</ul>

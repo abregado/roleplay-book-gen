@@ -1,4 +1,6 @@
+
 <ul class="vertbar">
+    <h1>Chapters</h1>
     {% for chapter in site.chapters %}
         {% assign id_link = chapter.path | split:"/" | last | split:"." | first %}
         <li>
@@ -12,6 +14,27 @@
             <a href="{{sub_link}}">{{subnav}}</a>
         </li>
         {% endfor %}
+
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<ul class="vertbar">
+    <h1>Appendices</h1>
+
+    {% for appendix in site.appendices %}
+    {% assign id_link = appendix.path | split:"/" | last | split:"." | first %}
+    <li>
+        <a href="{{appendix.url}}">{{appendix.title}}</a>
+    </li>
+    {% if appendix.extra-nav %}
+
+    {% for subnav in appendix.extra-nav %}
+    {% capture sub_link %}{{appendix.url}}/#{{subnav}}{% endcapture %}
+    <li class="subnav">
+        <a href="{{sub_link}}">{{subnav}}</a>
+    </li>
+    {% endfor %}
 
     {% endif %}
     {% endfor %}

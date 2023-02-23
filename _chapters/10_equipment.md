@@ -6,26 +6,26 @@ layout: "section"
 # Weapon Properties
 Weapons have the following properties:
 - **Ability base:** Strength or Dexterity
-- **Handedness:** Single or Two handed.
+- **Handedness:** Single or Two-handed.
 - **Proficiency requirement:** Simple, Martial or Exotic
 - **Strike effect:** How each strike made with this weapon works.
 
 ## Mundane weapons
 These are the most common weapons to be found in the world.
 
-Dagger. Single handed, Dexterity based, simple melee weapon. Strike: D4 + Dexterity piercing or slashing damage.
+Dagger. Single-handed, Dexterity based, simple melee weapon. Strike: D4 + Dexterity piercing or slashing damage.
 
-Machete. Single handed, Strength based, Simple melee weapon. Strike: D6 + Strength slashing damage.
+Machete. Single-handed, Strength based, Simple melee weapon. Strike: D6 + Strength slashing damage.
 
-Longsword/Battleaxe: Single handed, Strength based, Martial melee weapon. Strike: D8 + Strength slashing damage.
+Longsword/Battleaxe: Single-handed, Strength based, Martial melee weapon. Strike: D8 + Strength slashing damage.
 
-Club. Single handed, Strength based, Simple melee weapon. Strike: D6 + Strength bludgeoning damage.
+Club. Single-handed, Strength based, Simple melee weapon. Strike: D6 + Strength bludgeoning damage.
 
-Morningstar: Single handed, Strength based, Martial melee weapon. Strike: D8 + Strength bludgeoning damage.
+Morningstar: Single-handed, Strength based, Martial melee weapon. Strike: D8 + Strength bludgeoning damage.
 
-Spear. Single handed, Strength based, Simple melee weapon. Strike: D6 + Strength piercing damage.
+Spear. Single-handed, Strength based, Simple melee weapon. Strike: D6 + Strength piercing damage.
 
-Rapier: Single handed, Strength based, Martial melee weapon. Strike: D8 + Strength piercing damage.
+Rapier: Single-handed, Strength based, Martial melee weapon. Strike: D8 + Strength piercing damage.
 
 # Armour Properties
 Armour has the following properties:

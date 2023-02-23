@@ -1,6 +1,6 @@
 ---
 title: Conditions
-layout: "section"
+layout: "appendix"
 ---
 
 **Prone \[Condition\]:** The only movement option for this creature is to Crawl. 
@@ -55,7 +55,7 @@ The creature suffers disadvantage on all its attack rolls.
 **Unconscious \[Condition\]:** The creature gains the Paralysed, Restrained, Deafened and Blinded conditions.
 The creature drops any items it was holding when it gains this condition.
 
-**Slowed \[Condition\]:** The all of the creature's movement types have their movement halved. 
+**Slowed \[Condition\]:** The all of the creature's movement types have their movement halved. The creature has disadvantage on Dexterity saving throws.
 
 **Incapacitated \[Condition\]:** The creature cannot take Actions of any sort during its turn.
 
@@ -84,5 +84,5 @@ This condition can be removed by discarding some of their items.
 |10-19|Gain a Bleeding success|
 |20|Gain two Bleeding successes|
 
-If the creature ever has 3 Bleeding successes, this condition is removed and the creature is healed 1 hp.
+If the creature ever has 3 Bleeding successes, this condition is removed and the creature gains 1 hitpoint.
 If the creature ever has 3 Bleeding failures, this condition is removed and the creature dies.

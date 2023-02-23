@@ -11,3 +11,5 @@ partials:
 collections:
   chapters:
     output: true
+  appendices:
+    output: true
