@@ -77,6 +77,12 @@ The caster’s spells slots all increase in level together, meaning the caster o
 
 # Errata features
 
+## Frenetic Crescendo
+
+Requirements: 6th level Bard of the Maestro.
+
+**Bonus action.** Once per rest. Expend any number of uses of your Bardic Inspiration feature. For each expended use, you can immediately grant a Bardic Inspiration die to a creature you can see within 60 feet, as per your Bardic Inspiration feature. 
+
 ## Psionic Powers (tier 1)
 
 Requirements: 3rd level Psi-warrior
