@@ -194,5 +194,26 @@ table.roll_table tr:nth-child(even) {
 }
 
 
+div.condition-box {
+    border: black solid 1px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
 
+div.condition-box h1 {
+    margin-bottom: 0;
+    font-size: medium;
+}
 
+div.condition-box ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.condition-box ul li {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}

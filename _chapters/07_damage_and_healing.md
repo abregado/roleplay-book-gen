@@ -30,6 +30,9 @@ When a character is concentrating on a task or spell and it suffers damage it mu
 # Death and resurrection
 Upon reaching zero hit points a creature gains the Bleeding out and Unconscious conditions. These conditions are removed if the creature gains at least one hit point. If the Bleeding Out condition is not resolved then the character is considered Dead.
 
+{% include condition.html index="unconscious" %}
+{% include condition.html index="bleeding_out" %}
+
 [Conditions in the appendix](appendices/14_conditions.html)
 
 Resurrection is almost always possible in this setting. The difficulty of Resurrection is based on a number of things, but most importantly the time since the character became deceased. When a character dies, be sure to record the time of death on their sheet. Seconds, minutes, hours and days are important here.
@@ -45,4 +48,4 @@ Damage beyond a creature's current hit point total reduces the creature's maximu
 # Non-lethal damage
 When a creature makes a strike, it may declare the strike to be non-lethal. Any damage caused by the strike will not reduce the target's maximum hit points.
 
-Reducing a monster's hit points to zero using such an attack will apply the Unconscious condition. The monster can make a Constitution saving throw every hour to remove this condition.
+Reducing a monster's hit points to zero using such an attack will apply only the Unconscious condition. The monster can make a Constitution saving throw every hour to remove this condition.

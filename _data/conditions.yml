@@ -1,0 +1,120 @@
+prone:
+  title: Prone
+  effects:
+    - The only movement option for this creature is to Crawl.
+    - Melee attack rolls made against this creature are made with advantage.
+    - Ranged attack rolls made against this creature suffer disadvantage.
+    - The creature suffers disadvantage on all its attack rolls.
+  removal: This condition can be removed on the creatures turn automatically by spending half of its movement.
+blind:
+  title: Blind
+  effects:
+    - The creature cannot see and automatically fails any checks that require sight.
+    - Attacks against the creature are made with advantage.
+    - The creature suffers disadvantage on all its attack rolls.
+deaf:
+  title: Deaf
+  effects:
+    - The creature cannot see and automatically fails any checks that require hearing.
+silenced:
+  title: Silenced
+  effects:
+    - The creature cannot speak.
+    - The creature cannot fulfil any verbal components of a spell it would cast.
+restrained:
+  title: Restrained
+  effects:
+    - The creatures speed becomes zero and it cannot benefit from any bonuses to its speed.
+    - Attacks against the creature are made with advantage.
+    - The creature suffers disadvantage on all its attack rolls.
+    - The creature suffers disadvantage on any Dexterity checks it makes.
+bound:
+  title: Bound
+  effects:
+    - The number of hands free the creature has to equip items is reduced by one.
+    - This may affect the creature's ability to fulfil Somatic spell components during casting.
+    - This condition can be gained as many times as the creature has hands.
+paralyzed:
+  title: Paralyzed
+  effects:
+    - A paralysed creature gains the Silenced, Restrained and Incapacitated conditions.
+    - The creature automatically fails Strength and Dexterity saving throws.
+    - Attacks against the creature are made with advantage.
+    - Melee attack rolls that hit cause double damage.
+grappled:
+  title: Grappled
+  effects:
+    - The creature gains the Restrained condition.
+    - The condition ends if the grappler gains the Incapacitated condition.
+    - The condition ends if the grappler moves further than 2m away from the effected creature.
+weakened:
+  title: Weakened
+  effects:
+    - The creature has disadvantage on attack rolls and ability checks.
+stunned:
+  title: Stunned
+  effects:
+    - The creature gains the Incapacitated and Restrained conditions.
+    - The creature automatically fails Strength and Dexterity saving throws.
+    - Attacks against the creature are made with advantage.
+frightened:
+  title: Frightened
+  effects:
+    - The creature has disadvantage on attack rolls and ability checks while the source of its fear is in sight.
+    - The creature cannot willingly move closer to the source of its fear.
+charmed:
+  title: Charmed
+  effects:
+    - The creature cannot attack the source of the condition, or target the charmer with harmful abilities.
+    - The charmer has advantage on any ability check to influence the creature.
+invisible:
+  title: Invisible
+  effects:
+    - The creature cannot be targeted by any creature that relies on of sight.
+    - Creatures that have magical vision, Truesight or rely on hearing can still see the creature.
+    - Attacks against the creature are made with advantage.
+    - The creature suffers disadvantage on all its attack rolls.
+unconscious:
+  title: Unconscious
+  effects:
+    - The creature gains the Paralysed, Restrained, Deafened and Blinded conditions.
+    - The creature drops any items it was holding when it gains this condition.
+    - This condition is removed if it regains any hitpoints.
+slowed:
+  title: Slowed
+  effects:
+    - The all of the creature's movement types have their movement halved.
+    - The creature has disadvantage on Dexterity saving throws.
+incapacitated:
+  title: Incapacitated
+  effects:
+    - The creature cannot take Actions of any sort during its turn.
+exhausted:
+  title: Exhausted
+  effects:
+    - Creatures can gain this condition multiple times. The effect it has is based on how many times the creature has suffered this condition.
+  levels:
+    - The creature has disadvantage on ability checks.
+    - The creature gains the Slowed condition.
+    - The creature gains the Weakened condition.
+    - The creature has its hit point and hit dice maximums halved.
+    - The creature gains the Paralysed condition.
+    - The creature dies.
+overburdened:
+  title: Overburdened
+  effects:
+    - The creature suffers disadvantage on all saving throws, skill checks and attack rolls.
+    - Attacks the creature makes become Risky, with critical failure resulting in items being dropped, or possibly destroyed.
+    - Attacks made against the creature have the chance to damage items.
+    - If the creature completes a strenuous task while overburdened, they gain the Exhausted condition.
+    - This condition can be removed by discarding some of their items.
+bleeding_out:
+  title: Bleeding Out
+  effects:
+    - The creature must pass a roll a d20 at the start of its turn.
+    - 10+ gain a Bleeding success
+    - 20 gain two Bleeding successes
+    - otherwise gain a Bleeding failure
+    - If the creature ever has 3 Bleeding successes, this condition is removed and the creature gains 1 hitpoint.
+    - If the creature ever has 3 Bleeding failures, this condition is removed and the creature dies.
+    - This condition is removed if the creature regains any hit points.
