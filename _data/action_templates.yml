@@ -1,0 +1,90 @@
+slam:
+  title: Slam
+  roll: Strength Save
+  damage: bludgeoning
+  effect: A target that fails to save gains the Prone condition and is moved 5ft away from the attacker per size class difference between them.
+bite:
+  title: Bite
+  roll: Melee weapon attack
+  damage: piercing
+  effect: If a target is damaged by this attack, then it gains the Grappled condition. It can remove this condition by causing any amount of damage on its turn to the attacker. If the target still has this condition at the end of its turn it suffers the bite attacks damage again, and then loses the Grappled condition.
+ice-breath:
+  title: Ice Breath
+  roll: Constitution Save
+  damage: Cold
+  effect: The target suffers the Slowed condition and full damage on a failure, and half damage on a success.
+poison-breath:
+  title: Poison Breath
+  roll: Constitution Save
+  damage: Poison
+  effect: The target suffers the Weakened condition and full damage on a failure, and half damage on a success.
+acid-breath:
+  title: Acid Breath
+  roll: Dexterity Save
+  damage: Acid
+  effect: The target suffers the Blinded condition and full damage on a failure, and half damage on a success.
+ash-breath:
+  title: Ash Breath
+  roll: Constitution Save
+  damage: Fire
+  effect: The target suffers the Silenced condition and full damage on a failure, and half damage on a success.
+sonic-boom:
+  title: Sonic Boom
+  roll: Constitution Save
+  damage: Thunder
+  effect: The target suffers the Deafened condition and full damage on a failure, and half damage on a success.
+engulf:
+  title: Engulf
+  roll: Dexterity Save
+  damage: Force
+  effect: The target must pass a Dexterity saving throw or suffer the Restrained condition and take force damage. Any attacks made against the attacker have a 50% chance it hit the target instead until the condition is removed. The Target may test at the end of their turn to remove the condition, suffering damage if they fail.
+pounce:
+  title: Pounce
+  roll: Strength Save
+  damage: None
+  effect: The target must pass a Strength saving throw or suffer the Prone condition. If they gain this condition, the attacker may make a free melee attack against them as a bonus action.
+spit:
+  title: Acid Spit
+  roll: Ranged weapon attack
+  damage: Acid
+  effect: After damage from this attack is applied, the target no longer can gain any AC bonus from any armor it is wearing. For non-magical armor the effect lasts until the next long rest. Magical armor recovers during the next short rest.
+hook:
+  title: Hook
+  roll: Melee weapon attack
+  damage: Slashing
+  effect: If the attack causes any damage, the attacker may swap positions with the target.
+lash:
+  title: Lash
+  roll: Melee weapon attack
+  damage: Slashing
+  effect: If the attack causes any damage, the target has disadvantage on the next saving throw they make.
+hug:
+  title: Hug
+  roll: Dexterity Save
+  damage: Bludgeoning
+  effect: A target that fails their save suffers the Bound and Restrained conditions and is considered Grappled. At the start of each of the attackers turns, the target suffers damage. These conditions are removed by breaking the Grapple.
+barrage:
+  title: Barrage
+  roll: Ranged spell attack
+  damage: Fire
+  effect: If the attack causes damage, the target suffers Disadvantage on attacks it makes against the attacker until the beginning of the attackers next turn.
+life-steal:
+  title: Life Steal
+  roll: Melee spell attack
+  damage: Necrotic
+  effect: If the attack causes damage, the attacker is healed half the amount dealt.
+zap:
+  title: Zap
+  roll: Ranged spell attack
+  damage: Lightning
+  effect: If this attack hits, then make another attack against one other target within 10ft of original target. If a target is vulnerable to lightning damage, then make two attacks instead. Each target can only be hit once by this attack.
+ice-shower:
+  title: Ice Shower (weak)
+  roll: Dexterity save
+  damage: Cold
+  effect: On a failed save the target gains the Slowed condition and suffers full damage.
+ice-shower-strong:
+  title: Ice Shower (strong)
+  roll: Dexterity save
+  damage: Cold
+  effect: One a failed save the target gains the Slowed condition and suffers full damage. On success the target takes half damage.

@@ -193,6 +193,23 @@ table.roll_table tr:nth-child(even) {
     background-color: lightgray;
 }
 
+.two-column-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.action-box {
+    margin-bottom: 5px;
+    font-size: large;
+    flex-basis: 40%;
+    margin-right: 10px;
+}
+
+.action-box p {
+    margin-top: 2px;
+    font-size: medium;
+}
 
 div.condition-box {
     border: black solid 1px;

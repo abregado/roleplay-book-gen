@@ -5,6 +5,7 @@ prone:
     - Melee attack rolls made against this creature are made with advantage.
     - Ranged attack rolls made against this creature suffer disadvantage.
     - The creature suffers disadvantage on all its attack rolls.
+    - The creature loses its Reaction if it had one.
   removal: This condition can be removed on the creatures turn automatically by spending half of its movement.
 blind:
   title: Blind
