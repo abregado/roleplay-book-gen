@@ -34,14 +34,23 @@
             {% endfor %}
         </p>
     {% endif %}
-    {% if include.creature.vulnerabilities.size > 0 %}
-        <p>Damage vulnerabilities: {{include.creature.vulnerabilities}}</p>
+    {% if include.creature.damage-vulnerabilities.size > 0 %}
+        <p>Damage vulnerabilities: {{include.creature.damage-vulnerabilities}}</p>
     {% endif %}
-    {% if include.creature.resistances.size > 0 %}
-        <p>Damage resistances: {{include.creature.resistances}}</p>
+    {% if include.creature.damage-resistances.size > 0 %}
+        <p>Damage resistances: {{include.creature.damage-resistances}}</p>
     {% endif %}
-    {% if include.creature.immunities.size > 0 %}
-        <p>Damage immunities: {{include.creature.immunities}}</p>
+    {% if include.creature.damage-immunities.size > 0 %}
+        <p>Damage immunities: {{include.creature.damage-immunities}}</p>
     {% endif %}
+    {% if include.creature.condition-immunities.size > 0 %}
+        <p>
+            Condition immunities:
+            {% for condition_name in includes.creature.condition-immunities %}
+                {{site.data.conditions[condition_name].title}} x
+            {% endfor %}
+        </p>
+    {% endif %}
+
     <h3></h3>
 </div>

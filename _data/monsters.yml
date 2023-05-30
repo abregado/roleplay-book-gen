@@ -17,9 +17,10 @@ frost-salamander:
     cha: -2
   prof: +4
   saves: [con,wis]
-  vulnerabilities: [fire]
-  immunities: [frost]
-  resistances: []
+  damage-vulnerabilities: [fire]
+  damage-immunities: [frost]
+  damage-resistances: []
+  condition-immunities: [blind]
   features: [
     burning-fury: If the salamander suffers any fire damage, it recharges its abilities immediately.
   ]
