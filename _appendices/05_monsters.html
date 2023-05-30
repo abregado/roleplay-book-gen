@@ -1,0 +1,20 @@
+---
+title: Monsters
+layout: "appendix"
+---
+
+<p>
+Monster attacks are supposed to be simplified versions of those that heroes utilize.
+They either require an attack roll or a saving throw, but never both.
+</p>
+<p>
+Range, damage values, attack values and difficulty class are shown on the monster stat block, as these can vary between monsters.
+</p>
+<p>
+Monsters will also trigger these actions in different ways. For example, one monster might use Zap as a reaction while another as its Bonus action. Another still might use it as part of a Multi-attack action.
+</p>
+
+{% for monster in site.data.monsters %}
+    {% assign monster_data = monster[1] %}
+    {% include stat-block.html creature=monster_data %}
+{% endfor %}

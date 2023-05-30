@@ -1,0 +1,76 @@
+frost-salamander:
+  title: Frost Salamander
+  token-size: Huge
+  creature-type: Elemental
+  armor: 17
+  health: 168
+  speeds:
+    walking: 60
+    burrow: 40
+    climb: 40
+  scores:
+    str: +5
+    dex: +1
+    con: +4
+    int: -2
+    wis: +0
+    cha: -2
+  prof: +4
+  saves: [con,wis]
+  vulnerabilities: [fire]
+  immunities: [frost]
+  resistances: []
+  features: [
+    burning-fury: If the salamander suffers any fire damage, it recharges its abilities immediately.
+  ]
+  actions:
+    -
+      title: Multi-attack
+      desc: The salamander can attack four times with its claw. It may swap one attack for a bite and one attack for a slam. The bite and slam cannot be made against the same target. No more than two attacks can be made against the same target.
+    -
+      title: Frost Attack
+      recharge: 5+
+      desc: The salamander can attack with either its Frost Breath or either of its Ice Shower attacks.
+  bonus-actions: []
+  reactions: [
+    The salamander may make a single claw attack as an attack of opportunity.
+  ]
+  strikes:
+    -
+      title: Bite
+      template: bite
+      damage: 10
+      bonus: +9
+    -
+      title: Claw
+      template: attack
+      damage: 10
+      bonus: +9
+    -
+      title: Tail Slam
+      template: slam
+      dc: 20
+    -
+      title: Frost Breath
+      template: ice-breath
+      damage: 44
+      marker: cone
+      marker-size: 60
+      dc: 17
+    -
+      title: Ice Shower
+      template: ice-shower-weak
+      range: 300
+      marker: cube
+      marker-size: 100
+      dc: 12
+      damage: 5
+    -
+      title: Ice Shower
+      template: ice-shower-weak
+      range: 100
+      marker: cube
+      marker-size: 40
+      dc: 17
+      damage: 10
+

@@ -1,0 +1,18 @@
+str:
+  short: Str
+  long: Strength
+dex:
+  short: Dex
+  long: Dexterity
+con:
+  short: Con
+  long: Constitution
+int:
+  short: Int
+  long: Intelligence
+wis:
+  short: Wis
+  long: Wisdom
+cha:
+  short: Cha
+  long: Charisma

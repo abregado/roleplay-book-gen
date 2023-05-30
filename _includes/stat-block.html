@@ -1,0 +1,47 @@
+<div class="stat-block">
+    <h1>{{include.creature.title}}</h1>
+    <h2>{{include.creature.token-size}} {{include.creature.creature-type}}</h2>
+    <p>
+    {% for speed in include.speeds %}
+        {{speed[0]}}: {{speed[1}}
+    {% endfor %}
+    </p>
+    <table class="score-block">
+        <tr>
+            <th>Str</th>
+            <th>Dex</th>
+            <th>Con</th>
+            <th>Int</th>
+            <th>Wis</th>
+            <th>Cha</th>
+        </tr>
+        <tr>
+            <td>{{include.creature.scores.str}}</td>
+            <td>{{include.creature.scores.dex}}</td>
+            <td>{{include.creature.scores.con}}</td>
+            <td>{{include.creature.scores.int}}</td>
+            <td>{{include.creature.scores.wis}}</td>
+            <td>{{include.creature.scores.cha}}</td>
+        </tr>
+    </table>
+    <p>Proficiency Bonus: {{include.creature.prof}}</p>
+    {% if include.creature.saves.size > 0 %}
+        <p>
+            Strong Saves:
+            {% for save_data in include.creature.saves %}
+                {{site.data.scores[save_data].long}}:
+                {{include.creature.scores[save_data] | plus: include.creature.prof}}
+            {% endfor %}
+        </p>
+    {% endif %}
+    {% if include.creature.vulnerabilities.size > 0 %}
+        <p>Damage vulnerabilities: {{include.creature.vulnerabilities}}</p>
+    {% endif %}
+    {% if include.creature.resistances.size > 0 %}
+        <p>Damage resistances: {{include.creature.resistances}}</p>
+    {% endif %}
+    {% if include.creature.immunities.size > 0 %}
+        <p>Damage immunities: {{include.creature.immunities}}</p>
+    {% endif %}
+    <h3></h3>
+</div>
