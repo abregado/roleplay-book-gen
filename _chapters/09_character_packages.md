@@ -3,6 +3,18 @@ title: Character Packages
 layout: "section"
 ---
 
+# Feature modifications
+When taking a feature, a player may modify a number of things about it.
+## Damage type references
+When you learn a spell, or gain a new feature which references any of the following damage types, you can change its type to a new one of the same level or lower.
+- Level 6: **Force**
+- Level 5: **Psychic**
+- Level 4: **Radiant, Necrotic, Thunder**
+- Level 3: **Fire, Cold, Lightning, Acid**
+- Level 2: **Magical Bludgeoning, Magical Piercing, Magical Slashing**
+- Level 1: **Poison, Bludgeoning, Piercing, Slashing**
+
+
 # Class Feature Changes
 ## Bard, Maestro subclass
 ### Frenetic Crescendo

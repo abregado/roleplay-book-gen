@@ -1,4 +1,4 @@
 17.09.2023
 - Changed initiative rules.
 - Updated long and short rest rules.
-
+- Added Feature modifications rule to Character Packages
