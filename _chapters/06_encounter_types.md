@@ -262,9 +262,11 @@ Defendable **Location Bonus:** When camping here, if combat breaks out, the atta
 
 # Resting Encounters
 ## Short Rest
-When the player characters are in a safe place where they will be uninterrupted for at least 1 hour, they may take a short rest.
+At any time the players may declare they will take a short rest. If a player does not want to, or cannot benefit from the short rest they can compelte another long action in the same time period (such as searching the room or casting a ritual spell).
 
-As long as a character can spend at least 1 hour doing nothing more than eating, drinking, or resting, they may gain the benefits of a short rest.
+As long as a character can spend at least 15 minutes doing nothing more than eating, drinking, or resting, they may gain the benefits of a short rest.
+
+A character must have at least 1 hit point to be able to benefit from a Short Rest.
 
 During a short rest, a player may spend one or more of their characters Hit Dice. When they do, they may roll each one and add the character's Constitution score to the roll and recover that many hit points during the rest.
 
@@ -272,7 +274,7 @@ Many features allow the character to complete short actions during a short rest 
 
 Any resources that a character has that are recovered during a short rest are also recovered at the end of the rest.
 
-Once a character has benefited from a short rest, they may not benefit from another one until they take a Long Rest.
+Once a character has benefited from two short rests, they may not benefit from another one until they take a Long Rest.
 
 ## Long Rest
 A character which can spend at least 8 hours resting or sleeping, with no more than 2 hours of light activity may gain the benefits of a long rest.
@@ -286,6 +288,8 @@ In general, all character resources are replenished during a long rest, and all 
 A character can only benefit from a single Long Rest every 24 hours of in game time.
 
 A character must have at least 1 hit point to be able to benefit from a Long Rest.
+
+Any Death saving throw failures that a player character has are removed during a Long Rest.
 
 If a character is suffering from the Exhausted condition at the start of a Long Rest, they may remove one level of the condition.
 
