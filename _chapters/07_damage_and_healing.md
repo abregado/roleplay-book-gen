@@ -9,8 +9,6 @@ Pool of dice used while resting to restore hit points. These are granted based o
 # Hit points
 Characters have a number of Hit Points. Weapons deal either a random or fixed amount of damage on a hit.
 
-Whenever a character levels up or takes a Long Rest it rolls it's Hit dice and adds it's Constitution modifier * it's class levels. If the result is higher than the character's current hit point maximum then the result becomes its new hit point maximum.
-
 # Temporary Hit Points
 Characters may also have a number of temporary hit points. These are always lost before regular hitpoints. A character's temporary hit points cannot be healed, and a character can only ever have one pool of temporary hit points. If an effect grants more temporary hit points, then all old temporary hit points are removed before the new ones are added.
 
@@ -43,9 +41,9 @@ Resurrection always expends resources, in most cases it is a gemstone. The more 
 When a creature falls to zero hit points, it is considered dead immediately unless it is either a player character or a character of import such as a villain or important story character.
 
 # Instant Character Death and Overkill
-Damage beyond a creature's current hit point total reduces the creature's maximum hit points. If a creature ever has a maximum hit point value of 0 then it dies immediately regardless of if it is a player character or important character.
+Damage beyond a creature's current hit point total have no effect. If a creature is caused damage equal to its maximum health in a single hit, it dies instantly.
 
 # Non-lethal damage
-When a creature makes a strike, it may declare the strike to be non-lethal. Any damage caused by the strike will not reduce the target's maximum hit points.
+When a creature makes a strike, it may declare the strike to be non-lethal. 
 
 Reducing a monster's hit points to zero using such an attack will apply only the Unconscious condition. The monster can make a Constitution saving throw every hour to remove this condition.

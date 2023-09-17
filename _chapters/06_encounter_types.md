@@ -279,8 +279,6 @@ Once a character has benefited from two short rests, they may not benefit from a
 ## Long Rest
 A character which can spend at least 8 hours resting or sleeping, with no more than 2 hours of light activity may gain the benefits of a long rest.
 
-A character can optionally reroll its maximum hit point score. To do so, the player rolls a number of hit dice equal to the character's maximum and adds their Constitution modifier multiplied by their level. If the total is higher than their current hit point maximum then they can replace the value.
-
 At the end of the rest period, a character regains half of their Hit Dice total. They also reset their current hit points to their hit point maximum.
 
 In general, all character resources are replenished during a long rest, and all magic items will recharge based on their individual rules.

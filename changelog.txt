@@ -4,3 +4,4 @@
 - Added Feature modifications rule to Character Packages
 - Updated magic features
 - Updated death saving throws
+- Removed variable maximum hit points
