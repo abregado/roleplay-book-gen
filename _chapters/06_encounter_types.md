@@ -9,17 +9,29 @@ Many battles fought during the game will be played on a grid with tokens represe
 
 Grid based combat gives the players and GM a good overview of the action, allowing them to more easily declare actions that make sense for everyone. One downside of this style of combat is that it can take much longer than other methods to complete.
 ## Beginning Combat
-Setting up combat takes place in three steps.
+Setting up combat takes place in four steps.
 
 {: .step_list}
-1. the GM positions all creature tokens onto the map, and explains any important interactable objects or dangerous areas.
-2. the GM determines if any creatures in the combat will start with the Surprised condition. This can happen in a number of ways.
-3. players and the GM roll an Initiative test for each unsurprised creature they control. An Initiative test is a special type of Dexterity ability check, which may have additional modifiers.
+1. the GM determines if either side has been ambushed.
+2. the GM positions all creature tokens onto the map, and explains any important interactable objects or dangerous areas.
+3. the GM determines if any players or creatures in the combat will start with the Surprised condition. This can happen in a number of ways.
+4players roll an Initiative test to determine their play order. 
+
+### Initiative tests
+Each player rolls a D20 and adds their Initiative modifier, which is equal to their Dexterity modifier plus any additional bonuses they have from features, and record this number.
 
 Surprised creatures have an Initiative score of zero.
-## Combat Round structure
-Once the combat is set up, creatures take their turns based on their Initiative score in descending order.
 
+## Which group goes first?
+If the players have been ambushed, then the opposing group will go first, otherwise the players group will go first.
+
+## Enemy group order
+Enemies act in any order that the GM seems fit. The order can change between rounds. Units near one another should have their rounds consecutively. Once all enemies has had a turn, the players may start their round.
+
+## Player group order
+Players will act in order from the highest initiative rolled to the lowest initiative rolled. The order does not change once combat has begun. Once player has taken their turn, the enemies start their round.
+
+## Combat Round structure
 Each round is 6 seconds. During each round, each creature will complete one turn.
 
 {: .itemlist_prefix}
