@@ -52,7 +52,7 @@ You fill a 20-foot cube you can see with magic. Roll a d10 to determine the magi
 
 ---
 
-## [Burning, Sparking, Freezing, Melting, Sonic] Ray
+## [Burning, Sparking, Freezing, Melting] Ray
 School: Evocation
 
 Level: 1
@@ -65,7 +65,7 @@ Duration: Instantaneous
 
 Components: Verbal and Somatic
 
-Choose one of the following damage types when you learn this spell: fire, lightning, cold, acid, thunder. 
+Choose one of the following damage types when you learn this spell: fire, lightning, cold, acid. 
 
 Make three of the following strikes.
 **Strike:** Ranged spell attack. 2d6 damage of the spells chosen type.
