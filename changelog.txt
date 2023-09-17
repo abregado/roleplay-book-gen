@@ -2,4 +2,5 @@
 - Changed initiative rules.
 - Updated long and short rest rules.
 - Added Feature modifications rule to Character Packages
-- Update magic features
+- Updated magic features
+- Updated death saving throws

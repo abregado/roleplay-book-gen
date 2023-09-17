@@ -9,7 +9,7 @@ Pool of dice used while resting to restore hit points. These are granted based o
 # Hit points
 Characters have a number of Hit Points. Weapons deal either a random or fixed amount of damage on a hit.
 
-Whenever a character levels up or takes a Long Rest it rolls it's Hit dice and adds it's Constitution modifier * it's class levels. If the result is higher than the character's current hit point maximum then the result becomes it's new hit point maximum.
+Whenever a character levels up or takes a Long Rest it rolls it's Hit dice and adds it's Constitution modifier * it's class levels. If the result is higher than the character's current hit point maximum then the result becomes its new hit point maximum.
 
 # Temporary Hit Points
 Characters may also have a number of temporary hit points. These are always lost before regular hitpoints. A character's temporary hit points cannot be healed, and a character can only ever have one pool of temporary hit points. If an effect grants more temporary hit points, then all old temporary hit points are removed before the new ones are added.

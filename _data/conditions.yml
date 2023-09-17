@@ -112,10 +112,10 @@ overburdened:
 bleeding_out:
   title: Bleeding Out
   effects:
-    - The creature must pass a roll a d20 at the start of its turn.
+    - The creature must make a d20 roll at the start of its turn.
     - 10+ gain a Bleeding success
-    - 20 gain two Bleeding successes
     - otherwise gain a Bleeding failure
     - If the creature ever has 3 Bleeding successes, this condition is removed and the creature gains 1 hitpoint.
     - If the creature ever has 3 Bleeding failures, this condition is removed and the creature dies.
     - This condition is removed if the creature regains any hit points.
+    - The creature retains any Bleeding failures until it finishes a Long rest.
