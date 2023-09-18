@@ -1,6 +1,6 @@
 ---
 title: Small rules to GM by
-layout: "section"
+layout: "appendix"
 ---
 
 Roll initiative only once for all creatures of the same type.

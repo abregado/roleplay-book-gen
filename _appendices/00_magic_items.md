@@ -8,12 +8,16 @@ columns: two
 
 # Unique Magic Items
 
+
 **Tacticians Wit. Rare clasp (Tiny/Divination). 900gp.**
+
+> An undecorated hair clasp that gives off a quick but serious energy
 
 **Passive:** +1 to Initiative rolls
 
 Once per day, after Initiative is rolled, swap your Initiative score with that of another willing creature.
 
+{: .example_green}
 **Sol. Great Maul (Evocation). 10,000gp.**
 
 Heavy, Two-handed. Strike: 2d10 bludgeoning damage. The highest damage dice rolled may cause Radiant damage instead of Bludgeoning, at your discretion.

@@ -8,27 +8,77 @@
 body {
     font-family: Arial;
     color: var(--adoblue);
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    align-content: center;
+    background: #1a202c;
 }
 
 .page {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: stretch;
-    gap: 10px;
-    width: 70%;
+    display:flex;
+    height:100%;
+    width: 1000px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 65%;
+    overflow-y: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 105px;
+    padding-bottom: 100px;
 }
 
 .sidebar {
-    flex-basis: 35%;
-    margin-right: 25px;
+    flex: 1 0 20%;
+    background: antiquewhite;
+    border-right: #333333 1px solid;
+    overflow-y: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .page {
+        flex-direction: column-reverse;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        margin-right: 15px;
+    }
+
+    .sidebar {
+        overflow: auto;
+    }
+
+    .sidebar ul {
+        display: flex;
+        align-items: center;
+        justify-content: normal;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-right: 15px;
+    }
+
+    .content::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 article {
@@ -37,7 +87,6 @@ article {
 
 h1.chapter_title {
     font-size: 2em;
-    color: black;
 }
 
 article h1 {
@@ -138,11 +187,19 @@ h1.title {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color: white;
+}
+
+@media (max-width: 1000px){
+    h1.title {
+        display: none;
+    }
 }
 
 ul.vertbar {
     list-style-type: none;
-    margin-left: auto;
+    padding: 0px;
+    margin: 0px;
 }
 
 ul.vertbar li {
@@ -169,6 +226,21 @@ ul.vertbar li.subnav {
     margin-left:10px;
 }
 
+@media (max-width: 1000px) {
+    ul.vertbar h1 {
+        display: none;
+    }
+
+    ul.vertbar {
+        border-bottom: #333333 1px solid;
+        padding: 15px 0px;
+    }
+
+    ul.vertbar li {
+        margin: 2px;
+    }
+
+}
 blockquote p {
     font-style: italic;
 }
@@ -234,3 +306,5 @@ div.condition-box ul li {
     padding: 0;
     text-indent: 0;
 }
+
+

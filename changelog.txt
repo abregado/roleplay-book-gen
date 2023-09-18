@@ -5,3 +5,6 @@
 - Updated magic features
 - Updated death saving throws
 - Removed variable maximum hit points
+
+18.09.2023
+- Updated styles. Should work on mobiles now.
