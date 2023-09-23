@@ -11,7 +11,7 @@ Each creature has a **stat block**, which is a set of numbers and blocks of text
 
 # Creatures
 
-All creatures have a set of six **ability scores**: Strength, Dexterity, Constitution, Willpower, Charisma. The ability scores of player characters are scored from -4 to +4, but those of other creatures can go much higher.
+All creatures have a set of six **ability scores**: Strength, Dexterity, Constitution, Willpower, Intelligence, Charisma. The ability scores of player characters are scored from -4 to +4, but those of other creatures can go much higher.
 
 Each creature has a **hit point maximum** and a number of **hit dice** which is listed on its stat block or character sheet.
 

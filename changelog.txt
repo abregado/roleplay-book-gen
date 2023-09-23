@@ -1,3 +1,6 @@
+23.09.2023
+- Fixed missing ability score
+
 17.09.2023
 - Changed initiative rules.
 - Updated long and short rest rules.
