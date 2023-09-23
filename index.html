@@ -12,4 +12,11 @@ layout: default
         <hr>
     </article>
 {% endfor %}
-
+{% for item in site.appendices %}
+{% assign id_link2 = item.path | split:"/" | last | split:"." | first %}
+    <article class="chapter">
+        <h1 class="chapter_title" id="{{id_link2}}">{{ item.title }}</h1>
+        <p>{{ item.content }}</p>
+        <hr>
+    </article>
+{% endfor %}

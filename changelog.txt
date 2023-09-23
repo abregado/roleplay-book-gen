@@ -1,5 +1,6 @@
 23.09.2023
 - Fixed missing ability score
+- Fixed appendices not linking correctly
 
 17.09.2023
 - Changed initiative rules.
