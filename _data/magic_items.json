@@ -231,7 +231,7 @@
     "subtype": "Small item, Abjuration",
     "rarity": "Uncommon",
     "blocks": [
-      "Reaction when you cast one of these spells: Three times per day, Teleport 10ft to a point you have seen recently."
+      "Reaction when you cast a level one or higher spell: Three times per day, Teleport 10ft to a point you have seen recently."
     ]
   },
   "truth-spear": {
