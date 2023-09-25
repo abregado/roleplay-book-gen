@@ -66,15 +66,14 @@ frightened:
 charmed:
   title: Charmed
   effects:
-    - The creature cannot attack the source of the condition, or target the charmer with harmful abilities.
+    - The creature cannot attack or target the charmer with harmful abilities.
     - The charmer has advantage on any ability check to influence the creature.
 invisible:
   title: Invisible
   effects:
-    - The creature cannot be targeted by any creature that relies on of sight.
+    - The creature cannot be targeted by an attack that relies on sight.
     - Creatures that have magical vision, Truesight or rely on hearing can still see the creature.
-    - Attacks against the creature are made with advantage.
-    - The creature suffers disadvantage on all its attack rolls.
+    - Attacks against the creature are made with disadvantage.
 unconscious:
   title: Unconscious
   effects:

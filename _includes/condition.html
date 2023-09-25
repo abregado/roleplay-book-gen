@@ -1,14 +1,17 @@
 {% assign condition = site.data.conditions[include.index] %}
 <div class="condition-box">
     <h1>{{condition.title}} [Condition]</h1>
+    <hr>
     <ul>
     {% for effect in condition.effects %}
         <li>{{effect}}</li>
     {% endfor %}
     {% if condition.removal %}
+        <hr>
     <li><strong>Removal:</strong>{{condition.removal}}</li>
     {% endif %}
     {% if condition.levels %}
+        <hr>
         {% for level in condition.levels %}
         <li><strong>Level {{forloop.index}}: </strong>{{level}}</li>
         {% endfor %}

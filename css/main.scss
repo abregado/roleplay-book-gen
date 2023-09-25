@@ -200,6 +200,7 @@ ul.vertbar {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+    margin-bottom: 50px;
 }
 
 ul.vertbar li {
@@ -285,26 +286,33 @@ table.roll_table tr:nth-child(even) {
 
 div.condition-box {
     border: black solid 1px;
+    box-shadow: 1px 1px 1px black;
     padding: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-}
+    width: 80%;
 
-div.condition-box h1 {
-    margin-bottom: 0;
-    font-size: medium;
-}
+    h1 {
+        text-indent: 0;
+        padding: 0;
+        margin:0;
+        margin-bottom: 5px;
+        font-size: large;
+    }
 
-div.condition-box ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
-div.condition-box ul li {
-    margin: 0;
-    padding: 0;
-    text-indent: 0;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin: 0;
+            margin-bottom: 2px;
+
+            padding: 0;
+            text-indent: 0;
+        }
+    }
 }
 
 .paper-outer {
