@@ -1,0 +1,354 @@
+{
+  "sword": {
+    "title": "Orcvenom Sword",
+    "type": "Longsword",
+    "subtype": "Martial melee weapon, 1d8 slashing, versatile (d10)",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Passive: +1 dice poison damage against Orcs",
+      "Passive: +1 to attack rolls."
+    ]
+  },
+  "tacwit": {
+    "title": "Tacticians Wit",
+    "type": "Clasp",
+    "subtype": "Tiny object, Divination",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Passive: +1 to Initiative rolls",
+      "Once per day, after Initiative is rolled, swap your Initiative score with that of another willing creature."
+    ]
+  },
+  "sol": {
+    "title": "Sol",
+    "type": "Great Maul",
+    "subtype": "Martial melee weapon, Heavy, Two-handed. 2d10 bludgeoning damage",
+    "rarity": "Very rare",
+    "blocks": [
+      "The highest damage dice rolled may cause Radiant damage instead of Bludgeoning, at your discretion.",
+      "Action: Spend 1 Charge. Holding the weapon aloft, it begins to glow as bright as the sun. For the next hour, the weapon emits bright light out to 60ft and dim light out to 120ft. The bright light counts as Sunlight for the purposes of magical effects. Any magical darkness up to level 3 which is covered by this bright light is dispelled immediately.",
+      "Action: Spend 1 Charge. Cast the Sanctuary spell on yourself.",
+      "Sol holds 1 charge, which recharges during a long rest."
+    ]
+  },
+  "cloudreign": {
+    "title": "Cloudreign",
+    "type": "Thoughtcapture Vial",
+    "subtype": "Tiny object, Abjuration",
+    "rarity": "Rare",
+    "blocks": [
+      "Action: Target a creature you can see within 10 feet of you to learn its surface thoughts and pull the thoughts learned out of the creature's head as a tangible glowing string of energy known as a thought strand. The strands can be stored indefinitely in the vial or until the vial reaches capacity, in which case the oldest strands dissipate. A creature affected by the vial knows that its thoughts are being probed.",
+      "Thought strands created using the Encode Though cantrip can be stored in the item. Such strands have their duration extended indefinitely.",
+      "The vial has 3 charges and can store up to 3 thought strands. It regains all its charges daily at dusk.",
+      "If attuned to a character with the Psi Warrior subclass, the stored thoughts can be spent as additional Psi dice (d4). If the thought is a particularly powerful one, the dice may be higher, at the DMs discretion. Psi Warriors attuned in this way also increase their Intelligence ability score modifier by +1 for the purposes of their psionic powers, and also learn the Encode Thoughts cantrip."
+    ]
+  },
+  "rest-periapt": {
+    "title": "Periapt of Effective rest",
+    "type": "Amulet",
+    "subtype": "Tiny object, Conjuration",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Passive: Reroll any spent hit dice once per dice."
+    ]
+  },
+  "swashbucklers-leathers": {
+    "title": "Swashbucklers Leathers",
+    "type": "Light Armor",
+    "subtype": "12 + Dex modifier AC, Transmutation",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Passive: When you take the Dodge action, you may still make one attack roll."
+    ]
+  },
+  "voidlever": {
+    "title": "Voidlever",
+    "type": "Greatsword",
+    "subtype": "Martial melee weapon, Heavy, Two-handed, 3d6 slashing damage",
+    "rarity": "Rare",
+    "blocks": [
+      "Passive: The weapon damage increases to 3d6.",
+      "Bonus Action: Item is sheathed to an extradimensional space or unsheathed from that space."
+    ]
+  },
+  "suffer-ring": {
+    "title": "Ring of Suffering",
+    "type": "Ring",
+    "subtype": "Tiny object, Necromancy",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Passive: Creatures already under the effect of one of your spells suffer a d4 penalty to their Saving throws from spells you cast."
+    ]
+  },
+  "stablemind": {
+    "title": "Stablemind Breastplate",
+    "type": "Medium Armor",
+    "subtype": "14 + Dex mod (max 2) AC, Illusion",
+    "rarity": "Rare",
+    "blocks": [
+      "Free action: Spend 1 charge and a hit die. Regain the amount rolled in hitpoints.",
+      "Action: Spend 2 charges. Remove the Charmed condition from yourself.",
+      "Stablemind has 6 charges. During a short rest, roll a d6 for each used charge. On a 4+ it is restored."
+    ]
+  },
+  "paincensor": {
+    "title": "Paincensor",
+    "type": "Flail",
+    "subtype": "Martial melee weapon",
+    "rarity": "Rare",
+    "blocks": [
+      "Reaction: Weapon gains Reach(15ft)  for the next attack.",
+      "Passive: When you wound with this weapon, the target may not heal until your next turn begins.",
+      "Free action on a hit against a Humanoid: Once per day, Cause an extra d10 Acid damage."
+    ]
+  },
+  "dessication": {
+    "title": "Cloak of Dessication",
+    "type": "Cloak",
+    "subtype": "Medium object, Enchantment",
+    "rarity": "Rare",
+    "blocks": [
+      "Passive: Immunity to fire damage caused by the environment.",
+      "Bonus action: Once per day, Roll any number of hit dice and suffer that much fire damage. Recharge spell slots with value  equal to the dice used +2.",
+    ]
+  },
+  "sparkfinder": {
+    "title": "Sparkfinder Lens",
+    "type": "Bauble",
+    "subtype": "Tiny object, Evocation",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Action: Once per day, Roll any number of hit dice. Heal the amount rolled."
+    ]
+  },
+  "feyfly-nexus": {
+    "title": "Feyfly Nexus",
+    "type": "Choker",
+    "subtype": "Tiny object, Conjuration",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Free action, when you heal a target: Twice per day, you gain temporary hit points equal to double the hitpoints that the target healed. These last until your next rest."
+    ]
+  },
+  "alacrity": {
+    "title": "Periapt of Communal Alacrity",
+    "type": "Medallion",
+    "subtype": "Tiny object, Necromancy",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Bonus action: Transfer up to 2 points of AC to a friendly target within 15ft until the start of your next turn."
+    ]
+  },
+  "chalice-rest": {
+    "title": "Chalice of Perfect Rest",
+    "type": "Chalice",
+    "subtype": "Tiny object, Enchantment",
+    "rarity": "Rare",
+    "blocks": [
+      "Passive: Reroll any spent hit dice once. You must accept the second result.",
+      "Free action: Twice per day, the next hit die spent rolls maximum."
+    ]
+  },
+  "bearbark": {
+    "title": "Bearbark Cloak",
+    "type": "Cloak",
+    "subtype": "Small object, Enchantment",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Free action: Twice per day, You add +1d4 to the total of your next Athletics check."
+    ]
+  },
+  "mercy-reward": {
+    "title": "Mercy’s Reward",
+    "type": "Cloak",
+    "subtype": "Small object, Transmutation",
+    "rarity": "Rare",
+    "blocks": [
+      "Free action, when you heal a target: Four times per day, You heal the same amount as the target."
+    ]
+  },
+  "hoardfrost": {
+    "title": "Hoardfrost",
+    "type": "Handaxe",
+    "subtype": "Simple melee weapon, Light, Thrown (20/60), d6 slashing",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Reaction on a hit: +d6 cold damage.",
+      "Cast either the Frostbite or Gust cantrip once per day."
+    ]
+  },
+  "sinewarmor": {
+    "title": "Armour of Knotted Sinew",
+    "type": "Light Armor",
+    "subtype": "12 + Dex mod AC",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Passive: +d4 bonus on all Strength saving throws.",
+      "Ritual: Change the item into a cloak or back into a armour."
+    ]
+  },
+  "verdantbend": {
+    "title": "Verdantbend Armor",
+    "type": "Light Armor",
+    "subtype": "12 + Dex mod AC",
+    "rarity": "Rare",
+    "blocks": [
+      "Passive: +d4 to all saving throws against magic.",
+      "Reaction, when you gain hitpoints: Three times per day. Gain an additional d6 hit points."
+    ]
+  },
+  "mindcalm": {
+    "title": "Mindcalm Cape",
+    "type": "Cape",
+    "subtype": "Medium item, Abjuration",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Passive: You may reroll 1's on Concentration checks for the spells you cast."
+    ]
+  },
+  "newpurpose": {
+    "title": "Duergar Cloth of New Purpose",
+    "type": "Cloth",
+    "subtype": "Tiny item, Necromancy",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Ritual: Three times per day, create 3d6 pieces of ammunition for a weapon you have by cleaning a non-magical weapon with this cloth. The cleaned weapon disintegrates."
+    ]
+  },
+  "distraction-stone": {
+    "title": "Stone of Greater Distraction",
+    "type": "Crystal",
+    "subtype": "Tiny item, Abjuration",
+    "rarity": "Rare",
+    "blocks": [
+      "Reaction: Twice per day, An ally within 5ft may gain advantage on the next saving throw they make.",
+      "Passive: Creatures already under the effect of one of your spells subtract 1d4 on their Saving throws from spells you cast."
+    ]
+  },
+  "timeweave-focus": {
+    "title": "Timeweave Lens",
+    "type": "Spell focus",
+    "subtype": "Small item, Abjuration",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Reaction when you cast one of these spells: Three times per day, Teleport 10ft to a point you have seen recently."
+    ]
+  },
+  "truth-spear": {
+    "title": "Truth",
+    "type": "Spear",
+    "subtype": "Simple melee weapon, 1d6 piercing, Versatile (d8), Thrown (50/120)",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Passive: Causes critical hits on a 19 or 20.",
+      "Passive: +30ft/+60ft range (included)"
+    ]
+  },
+  "sourcefallen": {
+    "title": "Sourcefallen",
+    "type": "Handaxe",
+    "subtype": "Simple melee weapon, d6 slashing, Light, Thrown (20/60)",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Passive: +d4 damage of either fire or cold damage, chosen when attuning to the item."
+    ]
+  },
+  "darkpuddle": {
+    "title": "Darkpuddle Cloak",
+    "type": "Cloak",
+    "subtype": "Medium object, Illusion",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Reaction, when you roll a Stealth check: Gain the Prone condition and reroll the result.",
+      "Regain one hit die during a short rest while attuned to this item."
+    ]
+  },
+  "acidbinder": {
+    "title": "Acidbinder Mail",
+    "type": "Heavy Armor",
+    "subtype": "AC 17, Disadvantage on Stealth checks",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Passive: Learn either Primal Savagery or Acid Splash while wearing this armour, chosen when attuning to the item.",
+    ]
+  },
+  "focused-focus": {
+    "title": "Focused Focus",
+    "type": "Spell focus",
+    "subtype": "Small object, Evocation",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Passive: +1 to spell attack rolls when held.",
+      "Free action: Twice per day, gain advantage on Concentration checks for the duration of the next spell you cast."
+    ]
+  },
+  "timefoldplate": {
+    "title": "Timefold Plate",
+    "type": "Heavy Armor",
+    "subtype": "AC 17, Disadvantage on Stealth checks",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Action: Don/Doff this armour to an extradimensional space.",
+      "Free action: Twice per day. Take the disengage action."
+    ]
+  },
+  "quickring": {
+    "title": "Quick or Quiet",
+    "type": "Ring",
+    "subtype": "Tiny object, Conjuration",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Choose one effect to be active when you attune to the item.",
+      "Bonus action: Twice per day. Cast a spell which requires an Action.",
+      "or",
+      "Free action: Twice per day. The next spell you cast does not require its Somatic or Verbal components."
+    ]
+  },
+  "ficklesilver": {
+    "title": "Ficklesilver Plate",
+    "type": "Medium Armor",
+    "subtype": "14 + Dex mod (max 2) AC",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Reaction: Once per day, Roll a D6. On a 2-5 gain 2 reactions. These are lost at the start of your next turn."
+    ]
+  },
+  "letterguarantee": {
+    "title": "Letter of Guaranteed Delivery",
+    "type": "Paper",
+    "subtype": "Tiny object, Conjuration",
+    "rarity": "Common",
+    "blocks": [
+      "A simple piece of parchment and an envelope. After writing a letter on the parchment and a person's name on the envelope the letter vanishes, reappearing in the vicinity of the addressee. The letter can only be opened by the addressee, and will continue to reappear near them until it is opened.",
+      "The adresse may also write a letter on the back of the parchment at which point the letter returns to the sender in the same way. After returning, the item loses its magical abilities."
+    ]
+  },
+  "foldlattice": {
+    "title": "Foldlattice Shield",
+    "type": "Shield",
+    "subtype": "+2 AC, Conjuration",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Free action: Summon the shield to your hand or banish it back to its pocket dimension. The shield is Donned or Doffed as part of this action."
+    ]
+  },
+  "shadowseer": {
+    "title": "Shadowseer Monocle",
+    "type": "Mechanical Object",
+    "subtype": "Tiny object, Conjuration",
+    "rarity": "Uncommon",
+    "blocks": [
+      "Ritual: Twice per day, gain Darkvision (60ft) for 1 hour."
+    ]
+  },
+  "clocksmiths-lock": {
+    "title": "Clocksmith's Lock Kit",
+    "type": "Rod",
+    "subtype": "Thieves tools +1, Transmutation",
+    "rarity": "Rare",
+    "blocks": [
+      "This seemingly mundane rod mechanically transforms into a semi-sentient set of Thieves tools when the command word is spoken by an attuned character.",
+      "Free action: Once per day, gain advantage on a Thieves tool check."
+    ]
+  }
+}

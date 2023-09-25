@@ -307,4 +307,54 @@ div.condition-box ul li {
     text-indent: 0;
 }
 
+.paper-outer {
+    border: 40px solid white;
+    margin: 15px 10%;
+    border-image-source: url("../images/paper-corner.png");
+    border-image-slice: 20% 33%;
+    border-image-repeat: stretch;
+
+    .item {
+        vertical-align: top;
+
+        .inner {
+            align-content: center;
+
+            .item-name {
+                text-align: center;
+                font-size: larger;
+                font-weight: bold;
+                letter-spacing: 1px;
+                white-space: nowrap;
+            }
+
+            .item-desc {
+                font-size: medium;
+                font-weight: normal;
+                overflow: visible;
+                font-style: italic;
+            }
+
+            .effects {
+                width: 85%;
+                border: solid white;
+                border-width: 20px 30px;
+                background-color: white;
+                border-image-source: url("../images/heading-flair.png");
+                border-image-slice: 40% 16%;
+                border-image-repeat: repeat;
+                text-align: left;
+                list-style-type: none;
+
+                .effect-heading {
+                    font-weight: bold;
+                }
+
+                .effect {
+                    margin-left:5px;
+                }
+            }
+        }
+    }
+}
 

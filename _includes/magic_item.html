@@ -1,0 +1,17 @@
+<div class="paper-outer">
+        <div class="item">
+            <div class="inner">
+                <div class="item-name">
+                    {{include.content.title}}. {{include.content.rarity}} {{include.content.type}}
+                    <div class="item-desc">{{include.content.subtype}}</div>
+                </div>
+
+                <ul class="effects">
+                    <li class="effect-heading">Miraculous Traits</li>
+                    {% for passive in include.content.blocks %}
+                    <li class="effect">{{passive}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
