@@ -118,3 +118,9 @@ bleeding_out:
     - If the creature ever has 3 Bleeding failures, this condition is removed and the creature dies.
     - This condition is removed if the creature regains any hit points.
     - The creature retains any Bleeding failures until it finishes a Long rest.
+hiding:
+  title: Hiding
+  effects:
+    - Before any creature can target a creature with this condition they must succeed on a skill contest (Wisdom vs Dexterity).
+    - If the target creature is not obscured, then the test succeeds automatically.
+    - If the hiding creature moves more than half its movement, makes an attack, or casts a spell it loses this condition.

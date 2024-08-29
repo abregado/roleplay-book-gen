@@ -21,7 +21,7 @@ Each creature has a set of **movement values**. These are labelled with their na
 
 Every creature has an **armor class** rating from 0 to 30.
 
-Some creatures have one or more **senses**. If no senses are listed then it is assumed the creature has normal vision.
+Some creatures have one or more **senses**. If no senses are listed then it is assumed the creature has normal vision and hearing.
 
 Some creatures have a list of **damage resistances**, **vulnerabilities** and **immunities**.
 

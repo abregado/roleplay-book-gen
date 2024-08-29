@@ -16,13 +16,17 @@ To roll a skill check, a player rolls a D20. Any number equal or greater than th
 
 The Game master may call for a Skill Check associated with one of the six Abilities (Strength, Dexterity, Constitution, Willpower, Charisma). In this case, a player must add or subtract their Ability value from the number rolled.
 
-The player who will be rolling the skill check can ask if any of their Proficiencies are relevant, and add one of the relevant bonuses to the number rolled.
+The player who will be rolling the skill check can ask if any of their Skills are relevant, and if so, may add one of the relevant bonuses to the number rolled.
 
 ## Saving Throw
 A saving throw is made the same way as a Skill Check, however on a success, the character avoids something bad happening to them. Saving throws are never Risky as failure already means something bad will happen.
 
+A player may not add Skill bonuses to a Saving throw.
+
 ## Attack Roll
-An attack roll is made the same way as a Skill Check, however only proficiencies which match with the weapon the character are using are considered. Instead of a DC, the check must meet or exceed the Armor Class of the target.
+An attack roll is made the same way as a Skill Check, however no Skill bonuses may be added to the roll. Instead, the characters Proficiency bonus is added if the character has an equipment proficiency that matches the weapon they are using for the attack.
+
+Instead of a DC, the check must meet or exceed the Armor Class of the target.
 
 If successful, then the weapon's effect is read out and applied to the target. This generally means hit points are removed from the target (a fixed or random amount) but can include other effects, including further skill checks or saving throws.
 
@@ -37,7 +41,7 @@ To make a skill check with advantage, the player rolls 2D20 and **discards the l
 To make a skill check with disadvantage, the player rolls 2D20 and **discards the highest** rolled dice. The remaining dice is used to calculate the result as per the regular skill check rules.
 
 {: .example_green}
-**Examples of advantageous situations:** character can take their time, has the perfect tool for the job, or someone else can assist them without interruption.
+**Examples of advantageous situations:** character can take their time, has high quality tools for this exact job, or someone else can assist them without interruption.
 
 {: .example_red}
 **Examples of disadvantageous situations:** the character is under time pressure, has broken tools or someone is interfering with their attempts.

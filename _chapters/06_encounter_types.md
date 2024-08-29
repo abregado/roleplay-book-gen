@@ -117,14 +117,13 @@ If you ready a Spell action, you must spend the required resources immediately a
 As an Action: Select a creature within 2 metres of you. If that creature makes a skill check that you are Proficient in, or makes an attack roll against a target you can see that is also adjacent to you, before your next turn starts, it gains Advantage on the roll.
 
 ### Hide
-As an Action: You attempt to obscure your true position from one or more targets, all of which you must have full cover from. The attempt is considered a success without a roll, however at the moment when the target might see you, make a Dexterity skill check to see if you were successful or not.
-See the Unseen Attackers section for the benefits of Hiding.
+As an Action, after moving to a new space: Gain the Hiding condition.
 
 ### Disengage
 As an Action: All movement you make during your turn does not provoke Attacks of Opportunity.
 
 ## Bonus Actions
-Bonus Actions are considered shorter actions that compliment a Full Action. There is only one bonus action which can be used by every creature.
+Bonus Actions are considered shorter actions that compliment a Full Action. Each creature may make one Bonus Action per round, and only during their turn.
 
 ### Offhand attack
 As a Bonus Action, after using the Attack Action: Make a single strike with a second weapon that you are also holding. The weapon used must have the Light property. Do not add additional damage to the strike based on an Ability score.
@@ -184,7 +183,9 @@ As with Ability checks, Attack rolls can be Risky. If a 1 is rolled on a Risky s
 The most common situation which results in a Risky Attack Roll is when attacking a target which is adjacent to another friendly creature that is also within range of the attack. In this case, rolling a 1 generally means you hit the friendly target instead.
 
 ### Visibility, Sight, Lighting and Cover
-A creature may only attack a target that it can detect. Detection can be granted in many ways but generally it is gained via Line of Sight.
+A creature may only attack a target that it can detect. Detection can be granted in many ways, but generally it is gained via Line of Sight.
+
+During combat, creatures are not considered to have a particular arc in which they can see. It is assumed that they are looking around and actively updating their mental map of the battlefield.
 
 If a creature is undetected by the attacker, then it may not be selected as a target.
 
@@ -194,7 +195,14 @@ If a creature makes an attack against a target which has not detected it, then t
 
 If a creature makes an attack against a target which is obscured, then the attack is made with Disadvantage.
 
-There are many different Features which affect how a creature can detect others, and many abilities and spells which obscure a target. The interpretation of how these interplay is generally the job of the GM.
+There are many different Features which affect how a creature can detect others, and many abilities and spells which obscure a target. The interpretation of how this interplay is generally the job of the GM.
+
+### Hiding
+A creature may attempt to conceal itself from one or more other creatures by using its Action. Gaining the Hiding condition does not necessarily mean that the creature is unseen, it only adds the potential for other creatures to have not seen the hiding creature.
+
+As an Action, after moving to a new space: Gain the Hiding condition.
+
+{% include condition.html index="hiding" %}
 
 ### Ranged Attack Rolls
 When making ranged spell or ranged weapon attack rolls against adjacent targets or targets with the Prone condition, the rolls are made at Disadvantage.
